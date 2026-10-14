@@ -1,0 +1,8 @@
+{
+  "model": "nbio_interface_source_structure",
+  "n_params": 0,
+  "eval": {
+    "src_test": 3.0602839842828055e-08,
+    "median": 1.897300282299798e-09
+  }
+}

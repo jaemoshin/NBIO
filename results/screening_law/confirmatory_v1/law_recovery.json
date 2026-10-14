@@ -1,0 +1,78 @@
+{
+  "empirical_s": {
+    "common_bin_count_threshold": 23222.0,
+    "count": 1209600,
+    "maximum": 10.223258972167969,
+    "q99": 7.973179817199707
+  },
+  "evaluation_only": true,
+  "exact_law": "m_star(s)=s*K1(s)",
+  "law_solution_correlation": {
+    "interpretation": "descriptive only; six method-seed points",
+    "n": 6,
+    "pearson": 0.9986307493035728,
+    "spearman": 0.8285714285714287
+  },
+  "models": {
+    "radial_mlp_cross_seed": {
+      "max_standard_deviation_support": 0.017401043325662613
+    },
+    "radial_mlp_s0": {
+      "max_absolute_tail_error": 0.5351130135946893,
+      "max_relative_error_support": 202.64787135996698,
+      "median_relative_error_common": 0.00017843582787187257,
+      "median_relative_error_q99": 0.0005576565702717143,
+      "median_relative_error_rare": 2.5219562410068317,
+      "median_relative_error_support": 0.018594522043433842,
+      "solution_primary_rel_l2": 0.00015441150207304115
+    },
+    "radial_mlp_s1": {
+      "max_absolute_tail_error": 0.5717680223875665,
+      "max_relative_error_support": 240.92467899780553,
+      "median_relative_error_common": 0.0004612352799298371,
+      "median_relative_error_q99": 0.0016086549458859236,
+      "median_relative_error_rare": 2.9182059808221115,
+      "median_relative_error_support": 0.020400213069287004,
+      "solution_primary_rel_l2": 0.00021918088340650382
+    },
+    "radial_mlp_s2": {
+      "max_absolute_tail_error": 0.21293171563809876,
+      "max_relative_error_support": 17.422227985818246,
+      "median_relative_error_common": 0.00022996322792857732,
+      "median_relative_error_q99": 0.0006083145195712406,
+      "median_relative_error_rare": 0.07143284428863428,
+      "median_relative_error_support": 0.0014718836875479268,
+      "solution_primary_rel_l2": 0.00015678379953290762
+    },
+    "screening_mix8_cross_seed": {
+      "max_standard_deviation_support": 1.4035174899618141e-05
+    },
+    "screening_mix8_s0": {
+      "max_absolute_tail_error": 0.00020980165928667443,
+      "max_relative_error_support": 1.3842414457487195,
+      "median_relative_error_common": 0.002261749183825959,
+      "median_relative_error_q99": 0.007943237850718961,
+      "median_relative_error_rare": 0.4359190129371115,
+      "median_relative_error_support": 0.06182746988656189,
+      "solution_primary_rel_l2": 0.0010463007320746934
+    },
+    "screening_mix8_s1": {
+      "max_absolute_tail_error": 0.00020491247770441728,
+      "max_relative_error_support": 1.3520178859353458,
+      "median_relative_error_common": 0.002214620641902398,
+      "median_relative_error_q99": 0.008087054697782214,
+      "median_relative_error_rare": 0.42776293992119685,
+      "median_relative_error_support": 0.06125204770148301,
+      "solution_primary_rel_l2": 0.0010343073298524055
+    },
+    "screening_mix8_s2": {
+      "max_absolute_tail_error": 0.00020527161897225337,
+      "max_relative_error_support": 1.354366707322137,
+      "median_relative_error_common": 0.002268129819531957,
+      "median_relative_error_q99": 0.0078811216499403,
+      "median_relative_error_rare": 0.4273312090623015,
+      "median_relative_error_support": 0.060878023281181734,
+      "solution_primary_rel_l2": 0.0010353007767359183
+    }
+  }
+}

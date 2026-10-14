@@ -1,0 +1,146 @@
+{
+  "comparisons": [
+    {
+      "control": "legacy_full",
+      "control_mean": 0.0018980404576388486,
+      "mean_difference": -7.161396285542627e-05,
+      "paired_difference_ci": [
+        -0.00017450226497178146,
+        5.927829251367209e-05
+      ],
+      "relative_improvement": 0.037730472270603374,
+      "slice": "bulk",
+      "target": "smooth_full",
+      "target_mean": 0.0018264264947834227,
+      "target_win_fraction": 0.7604166666666666
+    },
+    {
+      "control": "legacy_none",
+      "control_mean": 0.002337443502028691,
+      "mean_difference": 0.0004781253545489664,
+      "paired_difference_ci": [
+        0.0004071858756863852,
+        0.00055275007670414
+      ],
+      "relative_improvement": -0.20455055026313837,
+      "slice": "bulk",
+      "target": "smooth_none",
+      "target_mean": 0.002815568856577657,
+      "target_win_fraction": 0.052083333333333336
+    },
+    {
+      "control": "smooth_none",
+      "control_mean": 0.002815568856577657,
+      "mean_difference": -0.000989142361794235,
+      "paired_difference_ci": [
+        -0.0011062346743517851,
+        -0.0008720291622613352
+      ],
+      "relative_improvement": 0.3513117285281183,
+      "slice": "bulk",
+      "target": "smooth_full",
+      "target_mean": 0.0018264264947834227,
+      "target_win_fraction": 0.9791666666666666
+    },
+    {
+      "control": "fixed_laplace_bie",
+      "control_mean": 0.3159255142979873,
+      "mean_difference": -0.31409908780320395,
+      "paired_difference_ci": [
+        -0.328847276788207,
+        -0.2993905389056974
+      ],
+      "relative_improvement": 0.9942188066106598,
+      "slice": "bulk",
+      "target": "smooth_full",
+      "target_mean": 0.0018264264947834227,
+      "target_win_fraction": 1.0
+    },
+    {
+      "control": "legacy_full",
+      "control_mean": 0.0038115514118557156,
+      "mean_difference": 0.0006470615378159689,
+      "paired_difference_ci": [
+        0.0005005550254264474,
+        0.0007945746116511206
+      ],
+      "relative_improvement": -0.1697632979062814,
+      "slice": "near",
+      "target": "smooth_full",
+      "target_mean": 0.004458612949671685,
+      "target_win_fraction": 0.16666666666666666
+    },
+    {
+      "control": "legacy_none",
+      "control_mean": 0.011978174583519933,
+      "mean_difference": -0.00017119756674017277,
+      "paired_difference_ci": [
+        -0.0004161069670683697,
+        9.288479689328381e-05
+      ],
+      "relative_improvement": 0.014292458800501558,
+      "slice": "near",
+      "target": "smooth_none",
+      "target_mean": 0.01180697701677976,
+      "target_win_fraction": 0.6458333333333334
+    },
+    {
+      "control": "smooth_none",
+      "control_mean": 0.01180697701677976,
+      "mean_difference": -0.007348364067108075,
+      "paired_difference_ci": [
+        -0.008156945188943688,
+        -0.006554806269687437
+      ],
+      "relative_improvement": 0.6223747244247851,
+      "slice": "near",
+      "target": "smooth_full",
+      "target_mean": 0.004458612949671685,
+      "target_win_fraction": 1.0
+    },
+    {
+      "control": "fixed_laplace_bie",
+      "control_mean": 0.22387987820544217,
+      "mean_difference": -0.21942126525577046,
+      "paired_difference_ci": [
+        -0.23029075894918744,
+        -0.20900837222106391
+      ],
+      "relative_improvement": 0.9800847982167461,
+      "slice": "near",
+      "target": "smooth_full",
+      "target_mean": 0.004458612949671685,
+      "target_win_fraction": 1.0
+    }
+  ],
+  "promote_smooth_features": true,
+  "protocol": {
+    "checkpoints": [
+      "results/kappa_seed_replication/data_s0_full/best.pt",
+      "results/kappa_seed_replication/data_s1_full/best.pt",
+      "results/kappa_seed_replication/data_s2_full/best.pt",
+      "results/kappa_seed_replication/data_s0_none/best.pt",
+      "results/kappa_seed_replication/data_s1_none/best.pt",
+      "results/kappa_seed_replication/data_s2_none/best.pt",
+      "results/kappa_smooth_features/data_s0_full/best.pt",
+      "results/kappa_smooth_features/data_s1_full/best.pt",
+      "results/kappa_smooth_features/data_s2_full/best.pt",
+      "results/kappa_smooth_features/data_s0_none/best.pt",
+      "results/kappa_smooth_features/data_s1_none/best.pt",
+      "results/kappa_smooth_features/data_s2_none/best.pt"
+    ],
+    "feature_change": "legacy normalized direction/distance replaced by raw displacement, squared distance, and smooth normal contractions; capacity and optimizer unchanged",
+    "holdout": "frozen kappa_confirmation seed 9303",
+    "paired_model_seeds": [
+      100,
+      101,
+      102
+    ],
+    "training_data_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "retention_rule": "Promote smooth features only if they beat the wrong fixed prior on both slices and do not degrade legacy full-prior mean error by more than 25% on either slice."
+}

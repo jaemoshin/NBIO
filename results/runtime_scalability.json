@@ -1,0 +1,1029 @@
+{
+  "rows": [
+    {
+      "device": "cuda",
+      "method": "Laplace NBIO",
+      "ms_per_sample": 1.0521299624087987,
+      "params": 9026,
+      "run": "nbio_s0",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cuda",
+      "method": "Laplace DeepONet",
+      "ms_per_sample": 0.026984206124325283,
+      "params": 625409,
+      "run": "deeponet_s0",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cuda",
+      "method": "Laplace DeepSet",
+      "ms_per_sample": 0.02424498125037644,
+      "params": 116737,
+      "run": "deepset_s0",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cuda",
+      "method": "Transmission NBIO",
+      "ms_per_sample": 3.1957288625562796,
+      "params": 7442,
+      "run": "tm_nbio_s0",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cuda",
+      "method": "Transmission DeepSet",
+      "ms_per_sample": 0.044369924944476224,
+      "params": 397697,
+      "run": "tm_deepset_s0",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cuda",
+      "method": "Transmission Transformer",
+      "ms_per_sample": 0.17019359984260518,
+      "params": 878465,
+      "run": "tm_transformer_s0",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cpu",
+      "method": "Laplace BEM solve+eval",
+      "ms_per_sample": 7.170699369453359,
+      "params": 0,
+      "run": "classical",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "device": "cpu",
+      "method": "Transmission BEM solve+eval",
+      "ms_per_sample": 49.113791741547175,
+      "params": 0,
+      "run": "classical",
+      "source": "results/runtime_summary.json"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.997565002180636"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "83.10980594251305"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "106.93238792009652"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "256.0846389969811"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "16.851780004799366"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "83.57033994980156"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "115.32912799157202"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "272.1716930391267"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.993701992556453"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.18691798578948"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "105.17212201375514"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "255.0671239150688"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "16.118562081828713"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "83.88320298399776"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "101.21378907933831"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "256.68858201242983"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "16.08882495202124"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.9109300179407"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "101.09863500110805"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.99112096056342"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.855215024203062"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.95854202192277"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "101.55935201328248"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.02408903371543"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.782081056386232"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.69363604672253"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "114.3307740567252"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "254.93705202825367"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.731090912595391"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "85.01167502254248"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "101.67546290904284"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "255.02488296478987"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.94844798091799"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.92833005543798"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "98.31366001162678"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "252.77827202808112"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.962392091751099"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.35331601463258"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "98.20999100338668"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "254.89256100263447"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.892841969616711"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "83.43561203218997"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.78894097730517"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.9518449921161"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.812131925486028"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.53293600864708"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "110.91589299030602"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.57963400892913"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.550073003396392"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "83.70288601145148"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "103.09264191891998"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "260.0489250617102"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.977133996784687"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.77838700450957"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "104.84110005199909"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "259.02584905270487"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.66077396273613"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.93745198938996"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "103.05600799620152"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "258.02759802900255"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.536336926743388"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.7409370103851"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "102.41228295490146"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "258.43971595168114"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.651319990865886"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.31139099411666"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.2990710074082"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "252.77884607203305"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.713397995568812"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.16063594631851"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.39882101025432"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.06213204748929"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.650516957975924"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.20040202327073"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.01548095513135"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.00332298502326"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.691049979068339"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "84.07709607854486"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.0041010081768"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.87918902561069"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.800603083334863"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.45773089583963"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.12829205859452"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.09167802333832"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.81237802747637"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.49539998359978"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "98.46301702782512"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.22194199543446"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.714230015873909"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.46491197496653"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.14866904728115"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.23833501897752"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "256",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "15.744569944217801"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "512",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "82.47961394954473"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1024",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "99.39468500670046"
+    },
+    {
+      "dataset": "abc",
+      "memory_mb": "",
+      "method": "ABC NBIO resolution-transfer",
+      "n_boundary": "1536",
+      "n_query": "",
+      "notes": "solve/eval row",
+      "params": 0,
+      "runtime_ms": "253.03930207155645"
+    }
+  ],
+  "status": "ok"
+}

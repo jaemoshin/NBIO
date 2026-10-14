@@ -1,0 +1,272 @@
+{
+  "protocol": "frozen final TMLR replication; no post-hoc hyperparameter changes",
+  "yukawa_kappa4": {
+    "laplace_split_correction": {
+      "n_seeds": 3,
+      "seed_values": [
+        0.008576817605644464,
+        0.008367758300155402,
+        0.007858874406665564
+      ],
+      "mean": 0.00826781677082181,
+      "sample_std": 0.00036925850187120526,
+      "min": 0.007858874406665564,
+      "max": 0.008576817605644464
+    },
+    "nosplit_learned_kernel": {
+      "n_seeds": 3,
+      "seed_values": [
+        0.0024980854149907828,
+        0.0029557236284017564,
+        0.0031009971909224986
+      ],
+      "mean": 0.0028516020781050124,
+      "sample_std": 0.00031465318259383916,
+      "min": 0.0024980854149907828,
+      "max": 0.0031009971909224986
+    }
+  },
+  "surface_3d_joint": {
+    "nbio3d_joint": {
+      "interior_indist": {
+        "n_seeds": 3,
+        "seed_values": [
+          0.0016684062429703772,
+          0.0021194237051531672,
+          0.002522003254853189
+        ],
+        "mean": 0.002103277734325578,
+        "sample_std": 0.0004270274978901128,
+        "min": 0.0016684062429703772,
+        "max": 0.002522003254853189
+      },
+      "exterior_indist": {
+        "n_seeds": 3,
+        "seed_values": [
+          0.002641023078467697,
+          0.0020440734224393964,
+          0.002131736575393006
+        ],
+        "mean": 0.002272277692100033,
+        "sample_std": 0.00032233689995410115,
+        "min": 0.0020440734224393964,
+        "max": 0.002641023078467697
+      },
+      "interior_strong_deform": {
+        "n_seeds": 3,
+        "seed_values": [
+          0.002045145200099796,
+          0.0026798570179380476,
+          0.0031513728317804635
+        ],
+        "mean": 0.0026254583499394357,
+        "sample_std": 0.0005551164783930234,
+        "min": 0.002045145200099796,
+        "max": 0.0031513728317804635
+      },
+      "exterior_strong_deform": {
+        "n_seeds": 3,
+        "seed_values": [
+          0.0030434895888902247,
+          0.002938459045253694,
+          0.0032544692512601614
+        ],
+        "mean": 0.00307880596180136,
+        "sample_std": 0.00016093802292112722,
+        "min": 0.002938459045253694,
+        "max": 0.0032544692512601614
+      },
+      "interior_res720": {
+        "n_seeds": 3,
+        "seed_values": [
+          0.003580096294172108,
+          0.0040860254666768014,
+          0.0047587837325409055
+        ],
+        "mean": 0.004141635164463271,
+        "sample_std": 0.0005913081668707328,
+        "min": 0.003580096294172108,
+        "max": 0.0047587837325409055
+      },
+      "exterior_res720": {
+        "n_seeds": 3,
+        "seed_values": [
+          0.003014872898347676,
+          0.004174845293164253,
+          0.00456039106938988
+        ],
+        "mean": 0.00391670308696727,
+        "sample_std": 0.0008044467994967687,
+        "min": 0.003014872898347676,
+        "max": 0.00456039106938988
+      }
+    },
+    "deepset3d_joint": {
+      "interior_indist": {
+        "n_seeds": 3,
+        "seed_values": [
+          1.0050563514232635,
+          1.1824922561645508,
+          1.0036839991807938
+        ],
+        "mean": 1.0637442022562027,
+        "sample_std": 0.1028411205108847,
+        "min": 1.0036839991807938,
+        "max": 1.1824922561645508
+      },
+      "exterior_indist": {
+        "n_seeds": 3,
+        "seed_values": [
+          1.0066670924425125,
+          1.2473503053188324,
+          1.0114951133728027
+        ],
+        "mean": 1.0885041703780491,
+        "sample_std": 0.13758596725591224,
+        "min": 1.0066670924425125,
+        "max": 1.2473503053188324
+      },
+      "interior_strong_deform": {
+        "n_seeds": 3,
+        "seed_values": [
+          1.0050563514232635,
+          1.182506412267685,
+          1.0036834329366684
+        ],
+        "mean": 1.0637487322092056,
+        "sample_std": 0.10284945870517165,
+        "min": 1.0036834329366684,
+        "max": 1.182506412267685
+      },
+      "exterior_strong_deform": {
+        "n_seeds": 3,
+        "seed_values": [
+          1.0066668093204498,
+          1.2473682761192322,
+          1.0114939510822296
+        ],
+        "mean": 1.0885096788406372,
+        "sample_std": 0.13759675058441312,
+        "min": 1.0066668093204498,
+        "max": 1.2473682761192322
+      },
+      "interior_res720": {
+        "n_seeds": 3,
+        "seed_values": [
+          1.0050563514232635,
+          1.1824924498796463,
+          1.0036840289831161
+        ],
+        "mean": 1.0637442767620087,
+        "sample_std": 0.10284122364743752,
+        "min": 1.0036840289831161,
+        "max": 1.1824924498796463
+      },
+      "exterior_res720": {
+        "n_seeds": 3,
+        "seed_values": [
+          1.0066671520471573,
+          1.2473503947257996,
+          1.0114951133728027
+        ],
+        "mean": 1.0885042200485866,
+        "sample_std": 0.13758600114048028,
+        "min": 1.0066671520471573,
+        "max": 1.2473503947257996
+      }
+    },
+    "nbio3d_structure": {
+      "interior_indist": {
+        "n_seeds": 1,
+        "seed_values": [
+          0.014154376927763224
+        ],
+        "mean": 0.014154376927763224,
+        "sample_std": 0.0,
+        "min": 0.014154376927763224,
+        "max": 0.014154376927763224,
+        "deterministic_control": true
+      },
+      "exterior_indist": {
+        "n_seeds": 1,
+        "seed_values": [
+          0.016312412451952696
+        ],
+        "mean": 0.016312412451952696,
+        "sample_std": 0.0,
+        "min": 0.016312412451952696,
+        "max": 0.016312412451952696,
+        "deterministic_control": true
+      },
+      "interior_strong_deform": {
+        "n_seeds": 1,
+        "seed_values": [
+          0.012733530718833208
+        ],
+        "mean": 0.012733530718833208,
+        "sample_std": 0.0,
+        "min": 0.012733530718833208,
+        "max": 0.012733530718833208,
+        "deterministic_control": true
+      },
+      "exterior_strong_deform": {
+        "n_seeds": 1,
+        "seed_values": [
+          0.015197776025161147
+        ],
+        "mean": 0.015197776025161147,
+        "sample_std": 0.0,
+        "min": 0.015197776025161147,
+        "max": 0.015197776025161147,
+        "deterministic_control": true
+      },
+      "interior_res720": {
+        "n_seeds": 1,
+        "seed_values": [
+          0.010072518372908235
+        ],
+        "mean": 0.010072518372908235,
+        "sample_std": 0.0,
+        "min": 0.010072518372908235,
+        "max": 0.010072518372908235,
+        "deterministic_control": true
+      },
+      "exterior_res720": {
+        "n_seeds": 1,
+        "seed_values": [
+          0.011613509617745876
+        ],
+        "mean": 0.011613509617745876,
+        "sample_std": 0.0,
+        "min": 0.011613509617745876,
+        "max": 0.011613509617745876,
+        "deterministic_control": true
+      }
+    }
+  },
+  "source_files": {
+    "laplace_split_correction": [
+      "results/nbio_yuk_s0/eval.json",
+      "results/nbio_yuk_split_s1/eval.json",
+      "results/nbio_yuk_split_s2/eval.json"
+    ],
+    "nosplit_learned_kernel": [
+      "results/nbio_yuk_nosplit_s0/eval.json",
+      "results/nbio_yuk_nosplit_s1/eval.json",
+      "results/nbio_yuk_nosplit_s2/eval.json"
+    ],
+    "nbio3d_joint": [
+      "results/next_steps_3d_joint.json",
+      "results/next_steps_3d_joint_s1.json",
+      "results/next_steps_3d_joint_s2.json"
+    ],
+    "deepset3d_joint": [
+      "results/next_steps_3d_joint_deepset.json",
+      "results/next_steps_3d_joint_deepset_s1.json",
+      "results/next_steps_3d_joint_deepset_s2.json"
+    ],
+    "nbio3d_structure": [
+      "results/next_steps_3d_joint_structure.json"
+    ]
+  }
+}

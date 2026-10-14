@@ -1,0 +1,8 @@
+{
+  "model": "nbio_interface_structure",
+  "n_params": 0,
+  "eval": {
+    "iface_test": 3.3259303935918003e-12,
+    "median": 1.4957955000655005e-15
+  }
+}

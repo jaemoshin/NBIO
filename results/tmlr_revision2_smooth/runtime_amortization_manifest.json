@@ -1,0 +1,29 @@
+{
+  "batch_size": 8,
+  "checkpoint_root": "results/kappa_smooth_features",
+  "checkpoints": [
+    "results/kappa_smooth_features/data_s0_full/best.pt",
+    "results/kappa_smooth_features/data_s0_none/best.pt"
+  ],
+  "contract_note": "new_geometry includes assembly and LU factorization; cached-geometry rows reuse the operator factorization. No speed superiority over optimized BIE software or amortized neural surrogates is claimed.",
+  "kappa": 1.1,
+  "n_query": [
+    64,
+    256,
+    1024
+  ],
+  "n_rhs": [
+    1,
+    8,
+    32
+  ],
+  "protocol": "same_gpu_component_and_reuse_timing",
+  "query_note": "n_query=1024 tiles the frozen 256 query coordinates; timing depends on tensor shape, not uniqueness",
+  "repeats": 30,
+  "resolutions": [
+    64,
+    128,
+    256
+  ],
+  "warmup": 5
+}

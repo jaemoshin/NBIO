@@ -1,0 +1,58 @@
+{
+  "all_checks_pass": true,
+  "sections": {
+    "figures": {
+      "generator_uses_efficiency": true,
+      "generator_uses_interval": true,
+      "inverse_figure_exists": true,
+      "main_figure_exists": true
+    },
+    "manuscript_tokens": {
+      "abstract_interval_control": true,
+      "abstract_interval_radial": true,
+      "abstract_matched_generic": true,
+      "abstract_matched_radial": true,
+      "efficiency_n100": true,
+      "efficiency_noise5": true,
+      "existing_holdout_disclosure": true,
+      "interval_ci": true,
+      "runtime_noncomparability": true,
+      "topology_scope": true,
+      "transformer_error": true,
+      "unified_radial_runtime": true,
+      "unified_transformer_runtime": true
+    },
+    "numeric": {
+      "interval_ratio_17p9": true,
+      "noise_ratio_13p8": true,
+      "table6_exact": true,
+      "table6_generic": true,
+      "table6_radial": true,
+      "table6_separate": true,
+      "table7_interval_exact": true,
+      "table7_interval_generic": true,
+      "table7_interval_radial": true,
+      "table7_interval_separate": true,
+      "table7_transformer": true,
+      "table7_transformer_radial": true,
+      "table8_n100_generic": true,
+      "table8_n100_radial": true,
+      "table8_noise5_generic": true,
+      "table8_noise5_radial": true
+    },
+    "reviewer_response_tokens": {
+      "interval": true,
+      "n100": true,
+      "noise5": true,
+      "old_runtime_qualified": true,
+      "transformer": true,
+      "unified_runtime": true
+    },
+    "runtime": {
+      "batch_size_one": true,
+      "radial_median_rounds_to_2p35": true,
+      "same_gpu": true,
+      "transformer_median_rounds_to_3p30": true
+    }
+  }
+}

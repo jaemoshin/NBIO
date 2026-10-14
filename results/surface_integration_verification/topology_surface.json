@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-18",
+  "bug": "deformed torus normals and quadrature weights used the undeformed torus formula",
+  "fix": "differentiate the angle-dependent tube radius and use the exact cross-product normal and surface Jacobian",
+  "single_family": {
+    "n_seeds": 4,
+    "seeds": [401, 402, 403, 404],
+    "torus": {
+      "floor_mean": 0.2725758415568592,
+      "correction_mean": 0.003770582556591666,
+      "correction_std": 0.000375324477941821,
+      "deepset_mean": 0.5685685413146613
+    },
+    "heldout_sphere": {
+      "floor_mean": 1.646500274706927,
+      "correction_mean": 0.05901130663385861,
+      "correction_std": 0.012003734994603523,
+      "deepset_mean": 1.1819541056224898,
+      "gap_closed_pct_mean": 96.4159552512457,
+      "gap_closed_pct_std": 0.7290454292052969,
+      "all_seeds_beat_floor": true,
+      "all_seeds_beat_deepset": true
+    }
+  },
+  "mixed_family": {
+    "n_seeds": 4,
+    "seeds": [501, 502, 503, 504],
+    "heldout_two_sphere": {
+      "floor_mean": 1.8714070921256807,
+      "correction_values": [
+        0.04865948638531469,
+        0.8894573139571939,
+        0.13068443124005194,
+        0.03227092773147668
+      ],
+      "correction_mean": 0.27526803982850934,
+      "correction_std": 0.35655711930499145,
+      "deepset_mean": 4.963473106561448,
+      "gap_closed_pct_mean": 85.29085194842135,
+      "gap_closed_pct_std": 19.052889176560075,
+      "all_seeds_beat_floor": true,
+      "all_seeds_beat_deepset": true,
+      "tail_note": "seed 502 reaches only 52.5% gap closure; the other three seeds close 93.0-98.3%"
+    }
+  },
+  "verdict": "NARROW"
+}

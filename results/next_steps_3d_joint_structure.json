@@ -1,0 +1,37 @@
+{
+  "task": "3d_surface_interior_exterior_joint_training",
+  "model": "nbio3d_structure",
+  "seed": 0,
+  "n_params": 0,
+  "device": "cuda",
+  "n_surface_train": 360,
+  "epochs": 0,
+  "history": [],
+  "eval": {
+    "interior_indist": {
+      "mean_rel_l2": 0.014154376927763224,
+      "std_rel_l2": 0.0001161824761356081
+    },
+    "exterior_indist": {
+      "mean_rel_l2": 0.016312412451952696,
+      "std_rel_l2": 0.0006279187457346975
+    },
+    "interior_strong_deform": {
+      "mean_rel_l2": 0.012733530718833208,
+      "std_rel_l2": 0.0001574186903753425
+    },
+    "exterior_strong_deform": {
+      "mean_rel_l2": 0.015197776025161147,
+      "std_rel_l2": 0.0004877637549643113
+    },
+    "interior_res720": {
+      "mean_rel_l2": 0.010072518372908235,
+      "std_rel_l2": 8.488981679116324e-05
+    },
+    "exterior_res720": {
+      "mean_rel_l2": 0.011613509617745876,
+      "std_rel_l2": 0.00045207070855320575
+    }
+  },
+  "honest_status": "Tests whether the learned 3D correction can cover both interior and exterior data. Compare to existing interior-only results in results/nbio3d/eval.json and structure-only results in results/nbio3d_structure/eval.json."
+}

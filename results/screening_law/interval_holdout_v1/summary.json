@@ -1,0 +1,54 @@
+{
+  "best_generic_control": "radial_separate",
+  "cluster_bootstrap_ci95": [
+    0.031319765330449584,
+    0.10220419858802636
+  ],
+  "means": {
+    "correct_yukawa_bie": 5.949980590240026e-05,
+    "generic_matched": 0.006290110451906609,
+    "radial_normal": 0.00010690987683877513,
+    "radial_separate": 0.0019139117231033096
+  },
+  "n_rows": 28800,
+  "pass": true,
+  "per_kappa": {
+    "1.6": {
+      "correct_yukawa_bie": 5.667425874911203e-05,
+      "generic_matched": 0.005922506764262734,
+      "radial_normal": 0.00010106907982453272,
+      "radial_separate": 0.0017964972354699664
+    },
+    "1.8": {
+      "correct_yukawa_bie": 5.806595533049593e-05,
+      "generic_matched": 0.006191537191019354,
+      "radial_normal": 0.00010355902631115694,
+      "radial_separate": 0.001970968022760644
+    },
+    "2.0": {
+      "correct_yukawa_bie": 5.947729144336241e-05,
+      "generic_matched": 0.006318238155371445,
+      "radial_normal": 0.00010624337172910398,
+      "radial_separate": 0.0020500800751000903
+    },
+    "2.2": {
+      "correct_yukawa_bie": 6.0913219845322906e-05,
+      "generic_matched": 0.0064163073341963655,
+      "radial_normal": 0.00010989306696589867,
+      "radial_separate": 0.0019677556088532177
+    },
+    "2.4": {
+      "correct_yukawa_bie": 6.236830414370804e-05,
+      "generic_matched": 0.006601962814683147,
+      "radial_normal": 0.00011378483936318339,
+      "radial_separate": 0.0017842576733326293
+    }
+  },
+  "radial_control_ratio": 0.055859356284952505,
+  "seed_ratios": [
+    0.04156686958104832,
+    0.0961240902440749,
+    0.04615891450007627
+  ],
+  "verdict": "PAPERIZE"
+}

@@ -1,0 +1,65 @@
+{
+  "forbidden_text_absent": {
+    "neural_expressivity_claim": true,
+    "old_batch1_timing": true,
+    "old_data_eff_caption": true
+  },
+  "numeric_source_checks": {
+    "hierarchical_ci_rounds": true,
+    "hierarchical_ratio_rounds": true,
+    "mlp_mean_matches": true,
+    "spline_mean_matches": true,
+    "stability_all_below_one": true,
+    "stability_coverage": true,
+    "stability_family_statistics_match": true
+  },
+  "passed": true,
+  "pdf_bytes": 2055431,
+  "pdf_sha256": "f125e5a2970f214aa0f1538bd2ba1e4324bd2dc3dea8f165cb9e2c02deba7185",
+  "required_text_checks": {
+    "abstract_discrepancy_wording": true,
+    "abstract_interval_attribution": true,
+    "continuous_time_one_seed_scope": true,
+    "fresh_bank": true,
+    "generic_mean": true,
+    "generic_term": true,
+    "hierarchical_interval": true,
+    "interface_one_seed_scope": true,
+    "mlp_mean": true,
+    "normal_form_interpretation": true,
+    "nosplit_term": true,
+    "one_seed_scope": true,
+    "radial_term": true,
+    "runtime_exact": true,
+    "runtime_radial": true,
+    "runtime_transformer": true,
+    "spline_cell_scope": true,
+    "spline_control": true,
+    "spline_mean": true,
+    "spline_ratio": true,
+    "stability_count": true,
+    "stability_family_deform": true,
+    "stability_family_highmode": true,
+    "stability_family_in_dist": true,
+    "stability_family_rough": true,
+    "stability_summary": true,
+    "structural_term": true
+  },
+  "response_package_checks": {
+    "current_efficiency_n100": true,
+    "current_efficiency_noise5": true,
+    "current_family_stability": true,
+    "current_interval_ci": true,
+    "current_runtime_triplet": true,
+    "reviewer3_cell_scope": true
+  },
+  "stale_response_text_absent": {
+    "deleted_component_timing": true,
+    "deleted_component_total": true,
+    "old_efficiency_pair": true,
+    "old_interval_ci": true,
+    "old_noise_pair": true,
+    "old_runtime_pair": true
+  },
+  "tex_sha256": "fcd99bf7a9011daaa2ce5cbd08ef74d6fecb11e622b860a3733943fc9dbb1958"
+}

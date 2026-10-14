@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "seed": 0,
+    "n_b": 128,
+    "n_q": 400,
+    "kappa": 4.0,
+    "dt": 0.0625,
+    "n_steps": 8,
+    "fft_n": 384,
+    "fft_L": 2.8,
+    "device": "cuda",
+    "yukawa_ckpt": "results/yukawa_nbio/best.pt",
+    "note": "Exact heat error includes implicit-Euler and FFT particular floors; NBIO-vs-BEM is the method-comparison metric."
+  },
+  "rows": [
+    {
+      "solver": "bem",
+      "step": 1,
+      "time": 0.0625,
+      "rel_l2_vs_exact_heat": 0.010479870708395157,
+      "max_abs_error_vs_exact_heat": 0.017742300855158488,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 2,
+      "time": 0.125,
+      "rel_l2_vs_exact_heat": 0.01610124053245581,
+      "max_abs_error_vs_exact_heat": 0.0240799857021452,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 3,
+      "time": 0.1875,
+      "rel_l2_vs_exact_heat": 0.01881430975709937,
+      "max_abs_error_vs_exact_heat": 0.025089655631856278,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 4,
+      "time": 0.25,
+      "rel_l2_vs_exact_heat": 0.0197662610052656,
+      "max_abs_error_vs_exact_heat": 0.023677821861271098,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 5,
+      "time": 0.3125,
+      "rel_l2_vs_exact_heat": 0.019651087259728157,
+      "max_abs_error_vs_exact_heat": 0.021422873081650917,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 6,
+      "time": 0.375,
+      "rel_l2_vs_exact_heat": 0.018902027870125588,
+      "max_abs_error_vs_exact_heat": 0.01894008915194134,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 7,
+      "time": 0.4375,
+      "rel_l2_vs_exact_heat": 0.01779632048232327,
+      "max_abs_error_vs_exact_heat": 0.01652824348846893,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "bem",
+      "step": 8,
+      "time": 0.5,
+      "rel_l2_vs_exact_heat": 0.01651367469745933,
+      "max_abs_error_vs_exact_heat": 0.014285459293349123,
+      "rel_l2_vs_bem_loop": null
+    },
+    {
+      "solver": "nbio",
+      "step": 1,
+      "time": 0.0625,
+      "rel_l2_vs_exact_heat": 0.01047985689426867,
+      "max_abs_error_vs_exact_heat": 0.017742288795789873,
+      "rel_l2_vs_bem_loop": 2.0471944906405435e-08
+    },
+    {
+      "solver": "nbio",
+      "step": 2,
+      "time": 0.125,
+      "rel_l2_vs_exact_heat": 0.016101207154765595,
+      "max_abs_error_vs_exact_heat": 0.024079957392080464,
+      "rel_l2_vs_bem_loop": 4.702273094610094e-08
+    },
+    {
+      "solver": "nbio",
+      "step": 3,
+      "time": 0.1875,
+      "rel_l2_vs_exact_heat": 0.01881425562140447,
+      "max_abs_error_vs_exact_heat": 0.02508960821871431,
+      "rel_l2_vs_bem_loop": 7.297632133278219e-08
+    },
+    {
+      "solver": "nbio",
+      "step": 4,
+      "time": 0.25,
+      "rel_l2_vs_exact_heat": 0.01976618674338301,
+      "max_abs_error_vs_exact_heat": 0.02367775927032667,
+      "rel_l2_vs_bem_loop": 9.610861613833996e-08
+    },
+    {
+      "solver": "nbio",
+      "step": 5,
+      "time": 0.3125,
+      "rel_l2_vs_exact_heat": 0.01965099387666129,
+      "max_abs_error_vs_exact_heat": 0.02142280509455574,
+      "rel_l2_vs_bem_loop": 1.1620319839751917e-07
+    },
+    {
+      "solver": "nbio",
+      "step": 6,
+      "time": 0.375,
+      "rel_l2_vs_exact_heat": 0.018901916098566687,
+      "max_abs_error_vs_exact_heat": 0.018940018522612734,
+      "rel_l2_vs_bem_loop": 1.3413815843693252e-07
+    },
+    {
+      "solver": "nbio",
+      "step": 7,
+      "time": 0.4375,
+      "rel_l2_vs_exact_heat": 0.01779619092639117,
+      "max_abs_error_vs_exact_heat": 0.016528164809743617,
+      "rel_l2_vs_bem_loop": 1.5053073408910384e-07
+    },
+    {
+      "solver": "nbio",
+      "step": 8,
+      "time": 0.5,
+      "rel_l2_vs_exact_heat": 0.016513527397570053,
+      "max_abs_error_vs_exact_heat": 0.014285373947874547,
+      "rel_l2_vs_bem_loop": 1.6647554472080018e-07
+    }
+  ],
+  "final": {
+    "bem_rel_l2_vs_exact_heat": 0.01651367469745933,
+    "nbio_rel_l2_vs_exact_heat": 0.016513527397570053,
+    "nbio_rel_l2_vs_bem_loop": 1.6647554472080018e-07
+  }
+}

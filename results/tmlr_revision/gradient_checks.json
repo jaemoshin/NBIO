@@ -1,0 +1,55 @@
+{
+  "dtype": "float64",
+  "epsilon_grid": [
+    0.001,
+    0.0003,
+    0.0001,
+    3e-05,
+    1e-05
+  ],
+  "pass": true,
+  "pass_threshold_relative": 0.001,
+  "primary": {
+    "boundary_data_g": {
+      "abs_error": 2.5673907444456745e-16,
+      "autograd": -0.061245664435461575,
+      "check": "boundary_data_g",
+      "epsilon": 1e-05,
+      "finite_difference": -0.06124566443546132,
+      "path": "assemble-independent RHS -> solve -> potential",
+      "rel_error": 4.191955084675579e-15
+    },
+    "geometry_fourier_a1": {
+      "abs_error": 2.219428308671001e-12,
+      "autograd": 0.0002835114487897552,
+      "check": "geometry_fourier_a1",
+      "epsilon": 1e-05,
+      "finite_difference": 0.0002835114465703269,
+      "path": "X,N,w,curvature -> assembly -> solve -> potential",
+      "rel_error": 7.82835514454611e-09
+    },
+    "learned_correction_parameter": {
+      "abs_error": 7.685909200749741e-16,
+      "autograd": 8.062009960095671e-05,
+      "check": "learned_correction_parameter",
+      "epsilon": 1e-05,
+      "finite_difference": 8.06200996017253e-05,
+      "path": "assembly -> solve -> potential",
+      "rel_error": 9.533490083390147e-12
+    },
+    "qbx_near_query_coordinate": {
+      "abs_error": 5.776047771587772e-14,
+      "autograd": 3.9550106548134545e-05,
+      "check": "qbx_near_query_coordinate",
+      "epsilon": 1e-05,
+      "finite_difference": 3.955010660589502e-05,
+      "nearest_node_minus": 26,
+      "nearest_node_plus": 26,
+      "nearest_node_stable": true,
+      "path": "near-boundary query -> QBX potential",
+      "rel_error": 1.460437977865486e-09
+    }
+  },
+  "primary_epsilon": 1e-05,
+  "qbx_piecewise_differentiability_note": "nearest-node selection must remain unchanged for a classical derivative"
+}

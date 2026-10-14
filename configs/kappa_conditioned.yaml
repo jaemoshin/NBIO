@@ -1,0 +1,23 @@
+seed: 0
+device: cuda
+train:
+  batch_size: 32
+  epochs: 100
+  lr: 0.001
+  weight_decay: 0.0
+  grad_clip: 1.0
+model:
+  name: nbio_kappa
+  kwargs:
+    hidden: 64
+    n_layers: 3
+    feat_scale: 1.0
+    region: interior
+    solve: direct
+    kappa_scale: 4.0
+    prior_mode: local
+    local_tau: 0.32
+    local_power: 4.0
+    residual_order: 2.0
+    local_scope: both
+    residual_scale: normalized

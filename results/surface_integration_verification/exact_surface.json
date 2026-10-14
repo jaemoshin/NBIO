@@ -1,0 +1,66 @@
+{
+  "device": "cuda",
+  "protocol": {
+    "seeds": [
+      0,
+      1
+    ],
+    "sphere": "36x44, oversample=3, p=8, beta=2h",
+    "torus_laplace": "44x16, oversample=3, p=12, beta=2h",
+    "torus_helmholtz": "60x22, oversample=3, p=12, beta=2h"
+  },
+  "source_hashes": {
+    "sphere_qbx.py": "beee0713e2020ee590e783692f8c4ea83225d30a34276b3295f6aade39fb0a48",
+    "torch_qbx.py": "afa712cfe19d6060fd1c02f5b7f6e4246408c25909e834c179acd82cf0b220a4",
+    "torus_helmholtz_qbx.py": "532f6dd5d2c20f9720135ed774a4cc5d4046722c413fec23e3864bf77299a4e5"
+  },
+  "sphere_laplace": {
+    "per_seed_rel_l2": [
+      4.1598053655429645e-06,
+      5.228066876759346e-06
+    ],
+    "mean_rel_l2": 4.693936121151156e-06
+  },
+  "torus_laplace": {
+    "per_seed_rel_l2": [
+      7.511679779483579e-06,
+      8.38106121970847e-06
+    ],
+    "mean_rel_l2": 7.946370499596025e-06,
+    "per_seed_grad_norm": [
+      0.06922926306088835,
+      0.013564185867447036
+    ],
+    "all_gradients_finite_positive": true
+  },
+  "torus_helmholtz": {
+    "1.0": {
+      "per_seed_rel_l2": [
+        2.7417224902946743e-06,
+        4.4280716006561485e-06
+      ],
+      "mean_rel_l2": 3.584897045475411e-06
+    },
+    "2.0": {
+      "per_seed_rel_l2": [
+        4.752325356345153e-06,
+        5.480536799374083e-06
+      ],
+      "mean_rel_l2": 5.116431077859618e-06
+    },
+    "4.0": {
+      "per_seed_rel_l2": [
+        9.969577521427403e-06,
+        8.119644525797352e-06
+      ],
+      "mean_rel_l2": 9.044611023612376e-06
+    }
+  },
+  "gates": {
+    "sphere_below_2e-5": true,
+    "torus_laplace_below_2e-5": true,
+    "helmholtz_all_below_2e-5": true,
+    "autograd_finite_positive": true
+  },
+  "all_gates_pass": true
+}

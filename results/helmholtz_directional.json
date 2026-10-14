@@ -1,0 +1,88 @@
+{
+  "n_b": 8192,
+  "diam": 2.0,
+  "src_nodes": 512,
+  "cluster_radius": 0.19512966230409767,
+  "eps": 1e-07,
+  "cone_const": 1.0,
+  "rows": [
+    {
+      "N_wavelengths": 2,
+      "k": 6.283185307179586,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 7,
+      "cone_halfwidth_rad": 0.8156368499416664,
+      "n_cones_total": 4,
+      "n_cones_used": 2,
+      "dephased_rank_max": 6,
+      "dephased_rank_mean": 6.0
+    },
+    {
+      "N_wavelengths": 4,
+      "k": 12.566370614359172,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 9,
+      "cone_halfwidth_rad": 0.4078184249708332,
+      "n_cones_total": 8,
+      "n_cones_used": 4,
+      "dephased_rank_max": 7,
+      "dephased_rank_mean": 6.25
+    },
+    {
+      "N_wavelengths": 8,
+      "k": 25.132741228718345,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 12,
+      "cone_halfwidth_rad": 0.2039092124854166,
+      "n_cones_total": 16,
+      "n_cones_used": 7,
+      "dephased_rank_max": 7,
+      "dephased_rank_mean": 6.142857142857143
+    },
+    {
+      "N_wavelengths": 16,
+      "k": 50.26548245743669,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 17,
+      "cone_halfwidth_rad": 0.1019546062427083,
+      "n_cones_total": 31,
+      "n_cones_used": 13,
+      "dephased_rank_max": 7,
+      "dephased_rank_mean": 6.3076923076923075
+    },
+    {
+      "N_wavelengths": 32,
+      "k": 100.53096491487338,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 24,
+      "cone_halfwidth_rad": 0.05097730312135415,
+      "n_cones_total": 62,
+      "n_cones_used": 25,
+      "dephased_rank_max": 7,
+      "dephased_rank_mean": 6.48
+    },
+    {
+      "N_wavelengths": 64,
+      "k": 201.06192982974676,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 38,
+      "cone_halfwidth_rad": 0.025488651560677075,
+      "n_cones_total": 124,
+      "n_cones_used": 49,
+      "dephased_rank_max": 7,
+      "dephased_rank_mean": 6.489795918367347
+    },
+    {
+      "N_wavelengths": 128,
+      "k": 402.1238596594935,
+      "cluster_radius": 0.19512966230409767,
+      "raw_rank": 64,
+      "cone_halfwidth_rad": 0.012744325780338538,
+      "n_cones_total": 247,
+      "n_cones_used": 96,
+      "dephased_rank_max": 7,
+      "dephased_rank_mean": 6.5
+    }
+  ],
+  "note": "raw far-field rank grows ~linearly in k; directional dephasing within cones of half-width ~1/(k a) keeps per-cone rank bounded -> directional/butterfly FMM is O(N log N)."
+}

@@ -1,0 +1,49 @@
+{
+  "component": "topology_transfer",
+  "coverage_rows": 11520,
+  "gates": {
+    "T1_radial_within_4x_exact": false,
+    "T2_at_least_10x_better_than_generic_full": false,
+    "T3_at_least_10x_better_than_prior_free": false,
+    "T4_no_nonfinite_or_failed_solve": true
+  },
+  "max_relative_residual": 3.548919033019203e-08,
+  "per_regime_primary": {
+    "four_obstacle_exterior": {
+      "exact_yukawa_bie": 8.383076493304971e-07,
+      "generic_matched": 121.03079520875427,
+      "generic_no_prior_matched": 1.0059633665498315,
+      "radial_normal": 3.2980792775026773
+    },
+    "single_obstacle_exterior": {
+      "exact_yukawa_bie": 3.9259084626559994e-06,
+      "generic_matched": 6.591346591655775,
+      "generic_no_prior_matched": 1.013539915485907,
+      "radial_normal": 4.746052754370582
+    },
+    "two_hole_interior": {
+      "exact_yukawa_bie": 2.6272466448979026e-06,
+      "generic_matched": 4.36070897817221,
+      "generic_no_prior_matched": 0.9896666849560839,
+      "radial_normal": 0.7552974058650856
+    },
+    "two_obstacle_exterior": {
+      "exact_yukawa_bie": 1.277747702145854e-06,
+      "generic_matched": 11.585487272170413,
+      "generic_no_prior_matched": 1.0093534299229578,
+      "radial_normal": 10.057723808296608
+    }
+  },
+  "primary_mean_rel_l2": {
+    "exact_yukawa_bie": 2.167302614757563e-06,
+    "generic_matched": 35.89208451268817,
+    "generic_no_prior_matched": 1.004630849228695,
+    "radial_normal": 4.714288311508738
+  },
+  "primary_ratios": {
+    "exact_yukawa_bie": 2175186.925632018,
+    "generic_matched": 0.13134618330239903,
+    "generic_no_prior_matched": 4.6925577839144905
+  },
+  "verdict": "KILL"
+}

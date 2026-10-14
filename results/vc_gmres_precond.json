@@ -1,0 +1,55 @@
+{
+  "n": 96,
+  "n_fields": 3,
+  "rows": [
+    {
+      "contrast": 3.0,
+      "born_rho": 0.6852574552961723,
+      "born_converges": true,
+      "precond_gmres_iters": 15.333333333333334,
+      "unprecond_gmres_iters": 447.0,
+      "precond_rel_l2": 9.528057969199461e-09
+    },
+    {
+      "contrast": 6.0,
+      "born_rho": 1.3116730806630024,
+      "born_converges": false,
+      "precond_gmres_iters": 24.0,
+      "unprecond_gmres_iters": 566.3333333333334,
+      "precond_rel_l2": 9.396512888299545e-09
+    },
+    {
+      "contrast": 8.0,
+      "born_rho": 1.5942153922113755,
+      "born_converges": false,
+      "precond_gmres_iters": 26.0,
+      "unprecond_gmres_iters": 573.3333333333334,
+      "precond_rel_l2": 9.54802450823351e-09
+    },
+    {
+      "contrast": 12.0,
+      "born_rho": 2.049917869810128,
+      "born_converges": false,
+      "precond_gmres_iters": 31.666666666666668,
+      "unprecond_gmres_iters": 620.0,
+      "precond_rel_l2": 9.982110578691417e-09
+    },
+    {
+      "contrast": 20.0,
+      "born_rho": 2.572229952437411,
+      "born_converges": false,
+      "precond_gmres_iters": 40.666666666666664,
+      "unprecond_gmres_iters": 768.3333333333334,
+      "precond_rel_l2": 9.908497701911077e-09
+    },
+    {
+      "contrast": 40.0,
+      "born_rho": 3.302275066025401,
+      "born_converges": false,
+      "precond_gmres_iters": 52.333333333333336,
+      "unprecond_gmres_iters": 809.6666666666666,
+      "precond_rel_l2": 1.005958257083737e-08
+    }
+  ],
+  "note": "The stationary Born iteration diverges past contrast ~6 (rho>1), but the constant-coeff operator remains an effective GMRES preconditioner at all contrasts: preconditioned GMRES converges to the FD ground truth with iteration counts growing only mildly, vs a large/growing count unpreconditioned. So the structure helps at high contrast too -- via Krylov, not stationary iteration."
+}

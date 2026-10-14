@@ -1,0 +1,57 @@
+{
+  "kill_criterion": "Claim practical differentiable inverse use only if at least 75% of fixed starts reach coefficient RMSE < 0.03 and forward rel-L2 < 0.01.",
+  "protocol": {
+    "checkpoint_root": "results/kappa_smooth_features",
+    "kappa": 2.2,
+    "n_boundary_loads": 4,
+    "n_boundary_optimization": 128,
+    "n_boundary_reference": 512,
+    "n_query": 64,
+    "n_starts": 8,
+    "optimizer": "Adam with cosine decay and fixed initialization seeds",
+    "pde": "interior modified Helmholtz",
+    "steps": 300,
+    "target": "refined SciPy/Numpy correct-Yukawa BIE",
+    "true_coefficients": [
+      0.1,
+      -0.05,
+      0.07,
+      0.04
+    ],
+    "unknowns": [
+      "a1",
+      "a2",
+      "b1",
+      "b2"
+    ]
+  },
+  "summary": {
+    "conditioned_full_prior": {
+      "fraction_coefficient_rmse_below_3e-2": 1.0,
+      "fraction_forward_below_1e-2": 1.0,
+      "mean_coefficient_rmse": 0.0003337418322656106,
+      "mean_forward_rel_l2": 0.00295605041901581,
+      "median_coefficient_rmse": 0.00034590370612551727,
+      "median_forward_rel_l2": 0.0029547743033617735,
+      "n_starts": 8
+    },
+    "conditioned_no_prior": {
+      "fraction_coefficient_rmse_below_3e-2": 1.0,
+      "fraction_forward_below_1e-2": 1.0,
+      "mean_coefficient_rmse": 8.966778431447873e-05,
+      "mean_forward_rel_l2": 0.001934198138769716,
+      "median_coefficient_rmse": 7.436241370338365e-05,
+      "median_forward_rel_l2": 0.001932521816343069,
+      "n_starts": 8
+    },
+    "correct_yukawa_bie": {
+      "fraction_coefficient_rmse_below_3e-2": 1.0,
+      "fraction_forward_below_1e-2": 1.0,
+      "mean_coefficient_rmse": 2.0591805092415064e-05,
+      "mean_forward_rel_l2": 3.7731075479996434e-05,
+      "median_coefficient_rmse": 9.85736085798948e-07,
+      "median_forward_rel_l2": 2.7429457531980006e-06,
+      "n_starts": 8
+    }
+  }
+}

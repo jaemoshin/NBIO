@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "dataset": "abc",
+      "model": "spatial_bias_sdpa",
+      "n_train_cases": 265,
+      "n_val_cases": 70,
+      "n_test_cases": 145,
+      "n_seeds": 3,
+      "seed_median_mean": 0.5219998359680176,
+      "seed_median_sample_std": 0.020456905358876558,
+      "per_case_seed_averaged_mean": 0.9304377712052444,
+      "per_case_seed_averaged_median": 0.5147086083889008,
+      "per_case_seed_averaged_p90": 1.1285965840021768,
+      "per_case_mean_ci_low": 0.6487541350773696,
+      "per_case_mean_ci_high": 1.2965481395034613,
+      "structure_median_rel_l2": 0.0020798790758951797,
+      "seed_median_gap_vs_structure": 250.97605049146856,
+      "selection_split": "mesh-disjoint validation; held-out test unused until final evaluation"
+    },
+    {
+      "dataset": "fusion",
+      "model": "ngf",
+      "n_train_cases": 210,
+      "n_val_cases": 45,
+      "n_test_cases": 95,
+      "n_seeds": 3,
+      "seed_median_mean": 0.5284806390603384,
+      "seed_median_sample_std": 0.04245375581227757,
+      "per_case_seed_averaged_mean": 0.5337036575664554,
+      "per_case_seed_averaged_median": 0.528284470240275,
+      "per_case_seed_averaged_p90": 0.8504814624786378,
+      "per_case_mean_ci_low": 0.48335366906826965,
+      "per_case_mean_ci_high": 0.5873953137677489,
+      "structure_median_rel_l2": 0.00556257419296818,
+      "seed_median_gap_vs_structure": 95.00648813428985,
+      "selection_split": "mesh-disjoint validation; held-out test unused until final evaluation"
+    }
+  ]
+}

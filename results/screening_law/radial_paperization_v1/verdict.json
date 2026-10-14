@@ -1,0 +1,54 @@
+{
+  "G1_radial_vs_generic": {
+    "cluster_bootstrap_ci95": [
+      0.011406534847730342,
+      0.014309449252428583
+    ],
+    "pass": true,
+    "ratio": 0.012815684449108206,
+    "seed_ratios": [
+      0.010585767185878111,
+      0.017724343263902567,
+      0.010209189452552708
+    ]
+  },
+  "G2_normal_form_vs_separate": {
+    "cluster_bootstrap_ci95": [
+      0.032460962305235666,
+      0.0381547984157807
+    ],
+    "pass": true,
+    "ratio": 0.03526978317494506,
+    "seed_ratios": [
+      0.03826926688737441,
+      0.024824573753634584,
+      0.08605216226635583
+    ]
+  },
+  "G3_exact_proximity": {
+    "pass": true,
+    "ratio": 2.1650611247569884
+  },
+  "G4_stability": {
+    "max_condition_ratio": 1.0021793159922507,
+    "max_relative_residual": 2.2720253411989688e-07,
+    "pass": true
+  },
+  "all_finite": true,
+  "coverage": {
+    "deform": 9600,
+    "highmode": 9600,
+    "in_dist": 9600,
+    "rough": 9600
+  },
+  "hidden_failures": [],
+  "outcome": "A",
+  "primary_mean_rel_l2": {
+    "exact_yukawa_bie": 6.977028981403066e-05,
+    "generic_matched": 0.011786880578968824,
+    "radial_normal": 0.00015105694213938628,
+    "radial_separate": 0.00428289965351117
+  },
+  "protocol": "radial_factorization_ablation_v1",
+  "verdict": "PAPERIZE"
+}

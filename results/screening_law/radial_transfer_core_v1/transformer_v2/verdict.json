@@ -1,0 +1,40 @@
+{
+  "adequacy_gates": {
+    "all_seed_means_below_0p25": true,
+    "mean_below_0p2": true
+  },
+  "all_finite": true,
+  "component": "transformer_baseline_v2",
+  "coverage_rows": 37440,
+  "primary_mean_rel_l2": {
+    "exact_yukawa_bie": 6.905492327637839e-05,
+    "generic_matched": 0.007307275459872005,
+    "generic_no_prior_matched": 0.00574237450904863,
+    "kappa_boundary_transformer_v2": 0.028804543774818853,
+    "radial_normal": 0.00015630133914930873
+  },
+  "seed_mean_rel_l2": {
+    "generic_matched": {
+      "0": 0.006597877605211587,
+      "1": 0.007330688089551313,
+      "2": 0.007993260684853119
+    },
+    "generic_no_prior_matched": {
+      "0": 0.006236501926881543,
+      "1": 0.005802886011514139,
+      "2": 0.005187735588750211
+    },
+    "kappa_boundary_transformer_v2": {
+      "0": 0.027327218751114393,
+      "1": 0.029496373404274055,
+      "2": 0.029590039169068112
+    },
+    "radial_normal": {
+      "0": 0.00011398028861420074,
+      "1": 0.00021895181550734324,
+      "2": 0.00013597191332638227
+    }
+  },
+  "transformer_over_radial": 184.28852837468634,
+  "verdict": "PAPERIZE"
+}

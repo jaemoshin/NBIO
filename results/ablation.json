@@ -1,0 +1,54 @@
+{
+  "test_shard": "data_cache/interior_test.pt",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "variants": {
+    "nbio_full": {
+      "rel_l2_seeds": [
+        4.787004468198575e-07,
+        4.783399981533876e-07,
+        4.785395435646933e-07
+      ],
+      "rel_l2_mean": 4.785266628459794e-07,
+      "rel_l2_std": 1.4743415474016523e-10,
+      "n_params": 9026,
+      "n_seeds": 3
+    },
+    "nbio_nosplit": {
+      "rel_l2_seeds": [
+        0.0022890185285359623,
+        0.002517999866977334,
+        0.0022506318893283604
+      ],
+      "rel_l2_mean": 0.002352550094947219,
+      "rel_l2_std": 0.00011803559863031844,
+      "n_params": 9025,
+      "n_seeds": 3
+    },
+    "nbio_neumann": {
+      "rel_l2_seeds": [
+        4.96220259265101e-07,
+        5.186082626096322e-07,
+        4.927416489408642e-07
+      ],
+      "rel_l2_mean": 5.025233902718657e-07,
+      "rel_l2_std": 1.1462039406628382e-08,
+      "n_params": 9026,
+      "n_seeds": 3
+    },
+    "nbio_classical": {
+      "rel_l2_seeds": [
+        4.752967720378365e-07
+      ],
+      "rel_l2_mean": 4.752967720378365e-07,
+      "rel_l2_std": 0.0,
+      "n_params": 9026,
+      "n_seeds": 1,
+      "note": "training-free: gate=1, smooth correction zeroed"
+    }
+  },
+  "bem_reference_rel_l2": 4.4371490844241633e-07
+}

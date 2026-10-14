@@ -1,0 +1,52 @@
+{
+  "gates": {
+    "radial_mean_rmse_at_most_half_best_generic": true,
+    "radial_median_coefficient_rmse_below_0p01": true,
+    "radial_median_gradient_cosine_at_least_0p95": true,
+    "radial_success_fraction_at_least_0p75": true
+  },
+  "protocol": "screening_radial_inverse_v1",
+  "summary": {
+    "exact_yukawa": {
+      "mean_coefficient_rmse": 1.836593141963553e-05,
+      "mean_forward_rel_l2": 5.283321625881854e-05,
+      "median_coefficient_rmse": 4.239259338867528e-07,
+      "median_forward_rel_l2": 3.622148255999491e-06,
+      "median_gradient_cosine_to_exact": 1.0,
+      "minimum_gradient_cosine_to_exact": 0.9999998807907104,
+      "n_runs": 16,
+      "success_fraction": 1.0
+    },
+    "generic_full_prior": {
+      "mean_coefficient_rmse": 0.0005020677071269568,
+      "mean_forward_rel_l2": 0.004030643503938336,
+      "median_coefficient_rmse": 0.0004488152686046355,
+      "median_forward_rel_l2": 0.004199073417112231,
+      "median_gradient_cosine_to_exact": 0.9999893605709076,
+      "minimum_gradient_cosine_to_exact": 0.9999635219573975,
+      "n_runs": 16,
+      "success_fraction": 1.0
+    },
+    "generic_no_prior": {
+      "mean_coefficient_rmse": 0.0003509568000085301,
+      "mean_forward_rel_l2": 0.0023259341323864646,
+      "median_coefficient_rmse": 0.00035940565707470224,
+      "median_forward_rel_l2": 0.0022070130798965693,
+      "median_gradient_cosine_to_exact": 0.9999933838844299,
+      "minimum_gradient_cosine_to_exact": 0.9999879598617554,
+      "n_runs": 16,
+      "success_fraction": 1.0
+    },
+    "radial_normal_form": {
+      "mean_coefficient_rmse": 2.4768914905016118e-05,
+      "mean_forward_rel_l2": 0.00017978741504975915,
+      "median_coefficient_rmse": 1.7938233902904444e-05,
+      "median_forward_rel_l2": 0.00015783607523189858,
+      "median_gradient_cosine_to_exact": 1.0,
+      "minimum_gradient_cosine_to_exact": 0.9999998807907104,
+      "n_runs": 16,
+      "success_fraction": 1.0
+    }
+  },
+  "verdict": "PAPERIZE"
+}

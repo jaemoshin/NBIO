@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "checks": {
+    "sphere_laplace": {
+      "expected": "4.69e-06",
+      "present": true,
+      "matched": true
+    },
+    "torus_laplace": {
+      "expected": "7.95e-06",
+      "present": true,
+      "matched": true
+    },
+    "helmholtz_k1": {
+      "expected": "3.58e-06",
+      "present": true,
+      "matched": true
+    },
+    "helmholtz_k2": {
+      "expected": "5.12e-06",
+      "present": true,
+      "matched": true
+    },
+    "helmholtz_k4": {
+      "expected": "9.04e-06",
+      "present": true,
+      "matched": true
+    },
+    "sphere_transfer": {
+      "expected": "0.0590",
+      "present": true,
+      "matched": true
+    },
+    "two_sphere_transfer": {
+      "expected": "0.2753",
+      "present": true,
+      "matched": true
+    },
+    "mesh_median_gap": {
+      "expected": "73.92",
+      "present": true,
+      "matched": true
+    },
+    "mesh_ci_low": {
+      "expected": "68.48",
+      "present": true,
+      "matched": true
+    },
+    "mesh_ci_high": {
+      "expected": "81.59",
+      "present": true,
+      "matched": true
+    },
+    "valid_meshes": {
+      "expected": "21",
+      "present": true,
+      "matched": true
+    },
+    "paired_wins": {
+      "expected": "82",
+      "present": true,
+      "matched": true
+    },
+    "paired_cells": {
+      "expected": "84",
+      "present": true,
+      "matched": true
+    },
+    "all_exact_gates": {
+      "expected": true,
+      "present": true,
+      "matched": true
+    },
+    "manifest_coverage": {
+      "expected": 204,
+      "present": 204,
+      "matched": true
+    }
+  }
+}

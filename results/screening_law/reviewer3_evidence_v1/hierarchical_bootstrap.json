@@ -1,0 +1,46 @@
+{
+  "noise5_radial_over_generic": {
+    "ci95": [
+      0.0652559814755952,
+      0.10655345666589591
+    ],
+    "draws": 100000,
+    "geometry_clusters": 128,
+    "ratio": 0.08312822472850212,
+    "resampling": "paired training-seed indices and paired geometry clusters",
+    "training_seeds": 3
+  },
+  "radial_over_generic": {
+    "ci95": [
+      0.010610518127271863,
+      0.027388326411005685
+    ],
+    "draws": 100000,
+    "geometry_clusters": 128,
+    "ratio": 0.018106204345674882,
+    "resampling": "paired training-seed indices and paired geometry clusters",
+    "training_seeds": 3
+  },
+  "sample_n100_radial_over_generic": {
+    "ci95": [
+      0.01083506747045293,
+      0.026357540021426137
+    ],
+    "draws": 100000,
+    "geometry_clusters": 128,
+    "ratio": 0.01723648797672293,
+    "resampling": "paired training-seed indices and paired geometry clusters",
+    "training_seeds": 3
+  },
+  "spline_over_radial": {
+    "ci95": [
+      0.3098158511752195,
+      0.8083610521525311
+    ],
+    "draws": 100000,
+    "geometry_clusters": 128,
+    "ratio": 0.58608356904357,
+    "resampling": "paired training-seed indices and paired geometry clusters",
+    "training_seeds": 3
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "in_dist_settings": {
+    "n_modes": 5,
+    "decay": 1.6,
+    "amp": 0.32,
+    "dev_cap": 0.55,
+    "margin": 0.12
+  },
+  "ood_settings": {
+    "highmode": {
+      "n_modes": 9,
+      "decay": 1.2,
+      "amp": 0.45,
+      "dev_cap": 0.55,
+      "margin": 0.12,
+      "seed_off": 1
+    },
+    "rough": {
+      "n_modes": 8,
+      "decay": 1.0,
+      "amp": 0.6,
+      "dev_cap": 0.75,
+      "margin": 0.12,
+      "seed_off": 2
+    },
+    "deform": {
+      "n_modes": 5,
+      "decay": 1.6,
+      "amp": 0.6,
+      "dev_cap": 0.85,
+      "margin": 0.12,
+      "seed_off": 3
+    },
+    "margin06": {
+      "n_modes": 5,
+      "decay": 1.6,
+      "amp": 0.32,
+      "dev_cap": 0.55,
+      "margin": 0.06,
+      "seed_off": 4
+    }
+  },
+  "models": {
+    "nbio": {
+      "run_dir": "results/ablM_nbio_full_s0",
+      "n_params": 9026,
+      "model_name": "nbio",
+      "kwargs": {
+        "hidden": 64,
+        "n_layers": 3,
+        "feat_scale": 1.0,
+        "region": "interior",
+        "split": true,
+        "solve": "direct"
+      },
+      "shards": {
+        "in_dist": {
+          "rel_l2": 4.787004468198575e-07,
+          "bem_rel_l2": 4.4371490844241633e-07,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_highmode": {
+          "rel_l2": 1.1503019777592272e-05,
+          "bem_rel_l2": 1.0979860853694845e-05,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_rough": {
+          "rel_l2": 8.193542249500752e-05,
+          "bem_rel_l2": 8.304429880809039e-05,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_deform": {
+          "rel_l2": 7.977623405167832e-05,
+          "bem_rel_l2": 7.730470126261935e-05,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_margin06": {
+          "rel_l2": 0.00017646141815930605,
+          "bem_rel_l2": 0.00017649777117185295,
+          "n_b": 128,
+          "n": 200
+        }
+      }
+    },
+    "deeponet": {
+      "run_dir": "results/ood_deeponet_s0",
+      "n_params": 625409,
+      "model_name": "deeponet",
+      "kwargs": {
+        "hidden": 256,
+        "n_layers": 4,
+        "feat_scale": 1.0,
+        "region": "interior",
+        "split": true,
+        "solve": "direct",
+        "n_sensors": 128,
+        "p": 128
+      },
+      "shards": {
+        "in_dist": {
+          "rel_l2": 0.08308707356452942,
+          "bem_rel_l2": 4.4371490844241633e-07,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_highmode": {
+          "rel_l2": 0.08801844656467438,
+          "bem_rel_l2": 1.0979860853694845e-05,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_rough": {
+          "rel_l2": 0.10641849279403687,
+          "bem_rel_l2": 8.304429880809039e-05,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_deform": {
+          "rel_l2": 0.0973497799038887,
+          "bem_rel_l2": 7.730470126261935e-05,
+          "n_b": 128,
+          "n": 200
+        },
+        "ood_margin06": {
+          "rel_l2": 0.08658026784658432,
+          "bem_rel_l2": 0.00017649777117185295,
+          "n_b": 128,
+          "n": 200
+        }
+      }
+    }
+  },
+  "bem_reference": {
+    "in_dist": 4.4371490844241633e-07,
+    "ood_highmode": 1.0979860853694845e-05,
+    "ood_rough": 8.304429880809039e-05,
+    "ood_deform": 7.730470126261935e-05,
+    "ood_margin06": 0.00017649777117185295
+  }
+}

@@ -1,0 +1,3 @@
+method,device,batch_size,n_boundary,n_query,parameters,warmup,repeats,median_ms_per_sample,mean_ms_per_sample,p90_ms_per_sample,contract
+radial_normal,NVIDIA TITAN X (Pascal),1,128,256,2241,20,100,2.354672074317932,2.3679718375205994,2.4482879638671875,assembly+dense solve+potential
+kappa_boundary_transformer_v2,NVIDIA TITAN X (Pascal),1,128,256,878593,20,100,3.2984800338745117,3.3068873691558838,3.322240114212036,amortized forward

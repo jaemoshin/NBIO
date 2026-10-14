@@ -1,0 +1,30 @@
+{
+  "protocol_sha256": "2d1591b447f4275143cf8a413c96b9be811a5a51c13cfa4a0b9b104939357a99",
+  "records": [
+    {
+      "best_validation_rel_l2": 3.060574175833608e-05,
+      "method": "radial_spline",
+      "n_parameters": 2241,
+      "path": "results/screening_law/reviewer3_evidence_v1/training/spline_s0/best.pt",
+      "seed_index": 0,
+      "sha256": "f515a00ff6a5bacd98e3bc0422eae2eae5018361b56ae9175b2f82a189d57519"
+    },
+    {
+      "best_validation_rel_l2": 0.00016517099138582125,
+      "method": "radial_spline",
+      "n_parameters": 2241,
+      "path": "results/screening_law/reviewer3_evidence_v1/training/spline_s1/best.pt",
+      "seed_index": 1,
+      "sha256": "8b1895759e7ae408edbb9bb835364d02cf52e2bd9b7d2eb1795588adeeb56059"
+    },
+    {
+      "best_validation_rel_l2": 4.4964403969061095e-05,
+      "method": "radial_spline",
+      "n_parameters": 2241,
+      "path": "results/screening_law/reviewer3_evidence_v1/training/spline_s2/best.pt",
+      "seed_index": 2,
+      "sha256": "28fc57dbf1c0497328802add0b4593dd2078fb7a58491764445d644a4fd73550"
+    }
+  ],
+  "status": "CHECKPOINTS_FROZEN_BEFORE_CONFIRMATION"
+}

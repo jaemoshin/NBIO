@@ -1,0 +1,1096 @@
+{
+  "protocol": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_meshes": 51,
+    "expected_cells": 204,
+    "min_probes": 20,
+    "known_valid_threshold": 0.02,
+    "minimum_floor": 0.025
+  },
+  "coverage": {
+    "found_files": 204,
+    "status_counts": {
+      "measured": 152,
+      "no_probes": 52
+    },
+    "mesh_category_counts": {
+      "valid": 21,
+      "invalid_core": 11,
+      "small_gap": 3,
+      "excluded_low_probe": 16
+    },
+    "source_hash_seed_count": 4
+  },
+  "valid_transfer": {
+    "mesh_gap_closed_pct": {
+      "median": 73.92330756860055,
+      "ci95": [
+        68.47718468344696,
+        81.588455175292
+      ],
+      "n": 21
+    },
+    "positive_over_20pct_meshes": 20,
+    "paired_seed_wins": 82,
+    "paired_seed_cells": 84,
+    "worst_seed_gap_closed_pct": -77.65248816168176,
+    "worst_mesh_gap_closed_pct": 4.027147793534535
+  },
+  "source_hashes_by_seed": {
+    "0": {
+      "p2_mesh.py": "d153d0ace2f17e8d678ffdf57fd3ad9c84b96a73ef9f99ea173b41a4cdc13948",
+      "m1_combined.py": "9ac344312b1d2e14308ee82edf4954b08a2bc74f800c58e19b04de57c1de7ac3",
+      "panel_qbx.py": "5d9c2cfd459fe95a9f617916e132cee5a0f29f91ecbbf01a4e8b0ce156a9edea",
+      "sphere_qbx.py": "beee0713e2020ee590e783692f8c4ea83225d30a34276b3295f6aade39fb0a48",
+      "surface_varkernel.py": "7dc0b52b6436e41e8a2d9f72853c4f85d24435902d9773cd2ed5a450049c5571"
+    },
+    "1": {
+      "p2_mesh.py": "d153d0ace2f17e8d678ffdf57fd3ad9c84b96a73ef9f99ea173b41a4cdc13948",
+      "m1_combined.py": "9ac344312b1d2e14308ee82edf4954b08a2bc74f800c58e19b04de57c1de7ac3",
+      "panel_qbx.py": "5d9c2cfd459fe95a9f617916e132cee5a0f29f91ecbbf01a4e8b0ce156a9edea",
+      "sphere_qbx.py": "beee0713e2020ee590e783692f8c4ea83225d30a34276b3295f6aade39fb0a48",
+      "surface_varkernel.py": "7dc0b52b6436e41e8a2d9f72853c4f85d24435902d9773cd2ed5a450049c5571"
+    },
+    "2": {
+      "p2_mesh.py": "d153d0ace2f17e8d678ffdf57fd3ad9c84b96a73ef9f99ea173b41a4cdc13948",
+      "m1_combined.py": "9ac344312b1d2e14308ee82edf4954b08a2bc74f800c58e19b04de57c1de7ac3",
+      "panel_qbx.py": "5d9c2cfd459fe95a9f617916e132cee5a0f29f91ecbbf01a4e8b0ce156a9edea",
+      "sphere_qbx.py": "beee0713e2020ee590e783692f8c4ea83225d30a34276b3295f6aade39fb0a48",
+      "surface_varkernel.py": "7dc0b52b6436e41e8a2d9f72853c4f85d24435902d9773cd2ed5a450049c5571"
+    },
+    "3": {
+      "p2_mesh.py": "d153d0ace2f17e8d678ffdf57fd3ad9c84b96a73ef9f99ea173b41a4cdc13948",
+      "m1_combined.py": "9ac344312b1d2e14308ee82edf4954b08a2bc74f800c58e19b04de57c1de7ac3",
+      "panel_qbx.py": "5d9c2cfd459fe95a9f617916e132cee5a0f29f91ecbbf01a4e8b0ce156a9edea",
+      "sphere_qbx.py": "beee0713e2020ee590e783692f8c4ea83225d30a34276b3295f6aade39fb0a48",
+      "surface_varkernel.py": "7dc0b52b6436e41e8a2d9f72853c4f85d24435902d9773cd2ed5a450049c5571"
+    }
+  },
+  "manifest": [
+    {
+      "seed": 0,
+      "mesh": "spot",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "cow",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "cheburashka",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "homer",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "fandisk",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "armadillo",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "igea",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "horse-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "rocker-arm",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "teapot-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "ogre-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "nefertiti-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "lucy",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "bimba-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "happy-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "max-planck-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "beetle-alt-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_103538",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_1228189",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_1312952",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_1620054",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_1623064_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_1646897",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_200010",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_388482",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_472103",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_472182",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_509311",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_55177",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_56265",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_67919_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_72658",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_78976_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_94144_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_94147_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_98939_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "thingi_98976",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 0,
+      "mesh": "fusion_45109_f1cebd33_3",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 0,
+      "mesh": "fusion_136172_f73f1078_8",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 0,
+      "mesh": "fusion_32220_1fd19c5e_71",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 0,
+      "mesh": "fusion_34673_5d261268_1",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 0,
+      "mesh": "fusion_41032_ed481084_4",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 0,
+      "mesh": "fusion_31360_a1accb4b_65",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 0,
+      "mesh": "bentheimer32",
+      "source": "microCT"
+    },
+    {
+      "seed": 0,
+      "mesh": "blade_iea15",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 0,
+      "mesh": "blade_iea34",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 0,
+      "mesh": "car_708",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 0,
+      "mesh": "car_083",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 0,
+      "mesh": "car_427",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 0,
+      "mesh": "bentheimer20z2",
+      "source": "microCT"
+    },
+    {
+      "seed": 0,
+      "mesh": "bentheimer16z25",
+      "source": "microCT"
+    },
+    {
+      "seed": 1,
+      "mesh": "spot",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "cow",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "cheburashka",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "homer",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "fandisk",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "armadillo",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "igea",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "horse-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "rocker-arm",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "teapot-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "ogre-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "nefertiti-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "lucy",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "bimba-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "happy-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "max-planck-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "beetle-alt-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_103538",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_1228189",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_1312952",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_1620054",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_1623064_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_1646897",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_200010",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_388482",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_472103",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_472182",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_509311",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_55177",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_56265",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_67919_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_72658",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_78976_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_94144_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_94147_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_98939_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "thingi_98976",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 1,
+      "mesh": "fusion_45109_f1cebd33_3",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 1,
+      "mesh": "fusion_136172_f73f1078_8",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 1,
+      "mesh": "fusion_32220_1fd19c5e_71",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 1,
+      "mesh": "fusion_34673_5d261268_1",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 1,
+      "mesh": "fusion_41032_ed481084_4",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 1,
+      "mesh": "fusion_31360_a1accb4b_65",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 1,
+      "mesh": "bentheimer32",
+      "source": "microCT"
+    },
+    {
+      "seed": 1,
+      "mesh": "blade_iea15",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 1,
+      "mesh": "blade_iea34",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 1,
+      "mesh": "car_708",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 1,
+      "mesh": "car_083",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 1,
+      "mesh": "car_427",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 1,
+      "mesh": "bentheimer20z2",
+      "source": "microCT"
+    },
+    {
+      "seed": 1,
+      "mesh": "bentheimer16z25",
+      "source": "microCT"
+    },
+    {
+      "seed": 2,
+      "mesh": "spot",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "cow",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "cheburashka",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "homer",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "fandisk",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "armadillo",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "igea",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "horse-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "rocker-arm",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "teapot-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "ogre-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "nefertiti-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "lucy",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "bimba-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "happy-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "max-planck-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "beetle-alt-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_103538",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_1228189",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_1312952",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_1620054",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_1623064_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_1646897",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_200010",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_388482",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_472103",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_472182",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_509311",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_55177",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_56265",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_67919_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_72658",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_78976_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_94144_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_94147_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_98939_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "thingi_98976",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 2,
+      "mesh": "fusion_45109_f1cebd33_3",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 2,
+      "mesh": "fusion_136172_f73f1078_8",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 2,
+      "mesh": "fusion_32220_1fd19c5e_71",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 2,
+      "mesh": "fusion_34673_5d261268_1",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 2,
+      "mesh": "fusion_41032_ed481084_4",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 2,
+      "mesh": "fusion_31360_a1accb4b_65",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 2,
+      "mesh": "bentheimer32",
+      "source": "microCT"
+    },
+    {
+      "seed": 2,
+      "mesh": "blade_iea15",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 2,
+      "mesh": "blade_iea34",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 2,
+      "mesh": "car_708",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 2,
+      "mesh": "car_083",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 2,
+      "mesh": "car_427",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 2,
+      "mesh": "bentheimer20z2",
+      "source": "microCT"
+    },
+    {
+      "seed": 2,
+      "mesh": "bentheimer16z25",
+      "source": "microCT"
+    },
+    {
+      "seed": 3,
+      "mesh": "spot",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "cow",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "cheburashka",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "homer",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "fandisk",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "armadillo",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "igea",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "horse-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "rocker-arm",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "teapot-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "ogre-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "nefertiti-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "lucy",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "bimba-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "happy-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "max-planck-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "beetle-alt-vox",
+      "source": "graphics"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_103538",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_1228189",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_1312952",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_1620054",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_1623064_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_1646897",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_200010",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_388482",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_472103",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_472182",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_509311",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_55177",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_56265",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_67919_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_72658",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_78976_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_94144_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_94147_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_98939_ps",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "thingi_98976",
+      "source": "Thingi10K"
+    },
+    {
+      "seed": 3,
+      "mesh": "fusion_45109_f1cebd33_3",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 3,
+      "mesh": "fusion_136172_f73f1078_8",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 3,
+      "mesh": "fusion_32220_1fd19c5e_71",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 3,
+      "mesh": "fusion_34673_5d261268_1",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 3,
+      "mesh": "fusion_41032_ed481084_4",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 3,
+      "mesh": "fusion_31360_a1accb4b_65",
+      "source": "Fusion360"
+    },
+    {
+      "seed": 3,
+      "mesh": "bentheimer32",
+      "source": "microCT"
+    },
+    {
+      "seed": 3,
+      "mesh": "blade_iea15",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 3,
+      "mesh": "blade_iea34",
+      "source": "IEA blade"
+    },
+    {
+      "seed": 3,
+      "mesh": "car_708",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 3,
+      "mesh": "car_083",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 3,
+      "mesh": "car_427",
+      "source": "ShapeNet-Car"
+    },
+    {
+      "seed": 3,
+      "mesh": "bentheimer20z2",
+      "source": "microCT"
+    },
+    {
+      "seed": 3,
+      "mesh": "bentheimer16z25",
+      "source": "microCT"
+    }
+  ]
+}

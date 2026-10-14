@@ -1,0 +1,199 @@
+{
+  "n_rows": 4480,
+  "base_kappa": 2.0,
+  "scales": [
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "radial": [
+    {
+      "method": "radial_mlp",
+      "scale": 0.5,
+      "kappa": 4.0,
+      "mean_rel_l2": 0.00011080227338977241,
+      "median_rel_l2": 8.08777028177616e-05,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    },
+    {
+      "method": "radial_mlp",
+      "scale": 0.75,
+      "kappa": 2.6666666666666665,
+      "mean_rel_l2": 0.00011080117929670662,
+      "median_rel_l2": 8.086624566193572e-05,
+      "mean_equivariance_drift": 1.0631472295112114e-07,
+      "max_equivariance_drift": 1.5740930336960446e-07
+    },
+    {
+      "method": "radial_mlp",
+      "scale": 1.0,
+      "kappa": 2.0,
+      "mean_rel_l2": 0.00011080227338977241,
+      "median_rel_l2": 8.08777028177616e-05,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    },
+    {
+      "method": "radial_mlp",
+      "scale": 1.5,
+      "kappa": 1.3333333333333333,
+      "mean_rel_l2": 0.00011080117929670662,
+      "median_rel_l2": 8.086624566193572e-05,
+      "mean_equivariance_drift": 1.0631472295112114e-07,
+      "max_equivariance_drift": 1.5740930336960446e-07
+    },
+    {
+      "method": "radial_mlp",
+      "scale": 2.0,
+      "kappa": 1.0,
+      "mean_rel_l2": 0.00011080227338977241,
+      "median_rel_l2": 8.08777028177616e-05,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    }
+  ],
+  "full_prior": [
+    {
+      "method": "full_prior",
+      "scale": 0.5,
+      "kappa": 4.0,
+      "mean_rel_l2": 0.018566215915168386,
+      "median_rel_l2": 0.01663588234265734,
+      "mean_equivariance_drift": 0.018561607711793233,
+      "max_equivariance_drift": 0.05893101543188095
+    },
+    {
+      "method": "full_prior",
+      "scale": 0.75,
+      "kappa": 2.6666666666666665,
+      "mean_rel_l2": 0.007794762951304512,
+      "median_rel_l2": 0.005208427129449265,
+      "mean_equivariance_drift": 0.0065679185590852285,
+      "max_equivariance_drift": 0.02907020039856434
+    },
+    {
+      "method": "full_prior",
+      "scale": 1.0,
+      "kappa": 2.0,
+      "mean_rel_l2": 0.0048000379375281845,
+      "median_rel_l2": 0.002698489600330223,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    },
+    {
+      "method": "full_prior",
+      "scale": 1.5,
+      "kappa": 1.3333333333333333,
+      "mean_rel_l2": 0.09815518156714098,
+      "median_rel_l2": 0.08765952798451705,
+      "mean_equivariance_drift": 0.09855178571888246,
+      "max_equivariance_drift": 0.34599199891090393
+    },
+    {
+      "method": "full_prior",
+      "scale": 2.0,
+      "kappa": 1.0,
+      "mean_rel_l2": 8.959889956451041,
+      "median_rel_l2": 0.5920178914834344,
+      "mean_equivariance_drift": 8.949740804964676,
+      "max_equivariance_drift": 643.5042114257812
+    }
+  ],
+  "no_prior": [
+    {
+      "method": "no_prior",
+      "scale": 0.5,
+      "kappa": 4.0,
+      "mean_rel_l2": 0.030555770132654914,
+      "median_rel_l2": 0.02611860667702247,
+      "mean_equivariance_drift": 0.03160406927054282,
+      "max_equivariance_drift": 0.14097192883491516
+    },
+    {
+      "method": "no_prior",
+      "scale": 0.75,
+      "kappa": 2.6666666666666665,
+      "mean_rel_l2": 0.007165382033912179,
+      "median_rel_l2": 0.005925181481630438,
+      "mean_equivariance_drift": 0.006473400597315049,
+      "max_equivariance_drift": 0.0235341377556324
+    },
+    {
+      "method": "no_prior",
+      "scale": 1.0,
+      "kappa": 2.0,
+      "mean_rel_l2": 0.003850570572946107,
+      "median_rel_l2": 0.0029026667907707466,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    },
+    {
+      "method": "no_prior",
+      "scale": 1.5,
+      "kappa": 1.3333333333333333,
+      "mean_rel_l2": 0.042915347769010626,
+      "median_rel_l2": 0.03704642234568571,
+      "mean_equivariance_drift": 0.042580141240856996,
+      "max_equivariance_drift": 0.15765471756458282
+    },
+    {
+      "method": "no_prior",
+      "scale": 2.0,
+      "kappa": 1.0,
+      "mean_rel_l2": 0.23910262829832155,
+      "median_rel_l2": 0.13789282001259207,
+      "mean_equivariance_drift": 0.23883586231871354,
+      "max_equivariance_drift": 1.097536325454712
+    }
+  ],
+  "exact_bie": [
+    {
+      "method": "correct_yukawa_bie",
+      "scale": 0.5,
+      "kappa": 4.0,
+      "mean_rel_l2": 4.5711964743536045e-05,
+      "median_rel_l2": 4.966620294421354e-06,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    },
+    {
+      "method": "correct_yukawa_bie",
+      "scale": 0.75,
+      "kappa": 2.6666666666666665,
+      "mean_rel_l2": 4.571196474355094e-05,
+      "median_rel_l2": 4.966620294371994e-06,
+      "mean_equivariance_drift": 1.316716695771736e-15,
+      "max_equivariance_drift": 2.498262229237629e-15
+    },
+    {
+      "method": "correct_yukawa_bie",
+      "scale": 1.0,
+      "kappa": 2.0,
+      "mean_rel_l2": 4.5711964743536045e-05,
+      "median_rel_l2": 4.966620294421354e-06,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    },
+    {
+      "method": "correct_yukawa_bie",
+      "scale": 1.5,
+      "kappa": 1.3333333333333333,
+      "mean_rel_l2": 4.571196474355094e-05,
+      "median_rel_l2": 4.966620294371994e-06,
+      "mean_equivariance_drift": 1.316716695771736e-15,
+      "max_equivariance_drift": 2.498262229237629e-15
+    },
+    {
+      "method": "correct_yukawa_bie",
+      "scale": 2.0,
+      "kappa": 1.0,
+      "mean_rel_l2": 4.5711964743536045e-05,
+      "median_rel_l2": 4.966620294421354e-06,
+      "mean_equivariance_drift": 0.0,
+      "max_equivariance_drift": 0.0
+    }
+  ]
+}

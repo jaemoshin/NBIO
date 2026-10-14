@@ -1,0 +1,48 @@
+{
+  "n_files": 42,
+  "n_meshes": 21,
+  "n_cells": 84,
+  "source_hashes": {
+    "radial_surface_mesh.py": "222b4a215d59586706f694968341b910efea8d3d1dd72e9768b77a2fbbe4dc2a",
+    "radial_surface_law.py": "eeeacd31cf2f2c87531b84e12b8ff725878c698a6bb974c3372d472dfc375717",
+    "p2_mesh.py": "d153d0ace2f17e8d678ffdf57fd3ad9c84b96a73ef9f99ea173b41a4cdc13948",
+    "panel_qbx.py": "5d9c2cfd459fe95a9f617916e132cee5a0f29f91ecbbf01a4e8b0ce156a9edea"
+  },
+  "generic_gap_closure": {
+    "median": 74.35609240963365,
+    "ci95": [
+      64.57204959521773,
+      81.59424688592341
+    ]
+  },
+  "mixture_gap_closure": {
+    "median": 92.96189613827319,
+    "ci95": [
+      89.59872772823846,
+      94.40886297899897
+    ]
+  },
+  "median_closure_gain_pp": 18.605803728639543,
+  "mixture_cell_wins": 77,
+  "mixture_floor_wins": 81,
+  "generic_losing_cells": 2,
+  "mixture_losing_cells": 3,
+  "max_mixture_error": 0.09310971796909547,
+  "max_solve_residual": 0.0035874842496655015,
+  "gate_c": {
+    "median_gain_at_least_10pp": true,
+    "fewer_losing_cells": false
+  },
+  "ceiling_diagnostic": {
+    "n_cells": 8,
+    "meshes": [
+      "armadillo",
+      "thingi_78976_ps"
+    ],
+    "exact_losing_cells": 3,
+    "mixture_losing_cells": 3,
+    "failure_sets_identical": true,
+    "median_abs_error_difference": 0.0004747818834691048,
+    "max_abs_error_difference": 0.004185532322507082
+  }
+}

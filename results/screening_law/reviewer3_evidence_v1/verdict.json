@@ -1,0 +1,134 @@
+{
+  "all_finite": true,
+  "claim_rule": "The spline result determines whether the screened gain is attributed to the normal form alone or also to neural parameterization; it does not alter the exact-structure contribution.",
+  "coverage": {
+    "fresh_efficiency_rows": 53760,
+    "fresh_main_rows": 38400,
+    "stability_matrices": 5760
+  },
+  "data_efficiency": {
+    "sample_n100": {
+      "generic_matched": 0.008921180420687354,
+      "radial_normal": 0.00015376981905935357
+    },
+    "sample_n2400": {
+      "generic_matched": 0.008564578675517017,
+      "radial_normal": 0.0001632285074350648
+    },
+    "sample_n300": {
+      "generic_matched": 0.008603154592947249,
+      "radial_normal": 0.00016774222930185563
+    },
+    "sample_n800": {
+      "generic_matched": 0.008199007979601446,
+      "radial_normal": 0.00016315497058390824
+    },
+    "sensor_q32_noise0p0": {
+      "generic_matched": 0.00979881790329576,
+      "radial_normal": 0.0001745254139137842
+    },
+    "sensor_q32_noise0p01": {
+      "generic_matched": 0.010911603369171038,
+      "radial_normal": 0.0003290221690425218
+    },
+    "sensor_q32_noise0p05": {
+      "generic_matched": 0.014348796013655374,
+      "radial_normal": 0.0011927899396065793
+    }
+  },
+  "paired_cluster_ratios": {
+    "radial_over_generic": {
+      "ci95": [
+        0.01279315136919005,
+        0.02592302966645089
+      ],
+      "cluster_definition": "geometry_family+sample_id; load and kappa averaged; seeds averaged",
+      "denominator": "generic_matched",
+      "draws": 10000,
+      "n_clusters": 128,
+      "numerator": "radial_normal",
+      "ratio": 0.01810620434567488
+    },
+    "spline_over_radial": {
+      "ci95": [
+        0.34426429739681935,
+        0.7486386098756299
+      ],
+      "cluster_definition": "geometry_family+sample_id; load and kappa averaged; seeds averaged",
+      "denominator": "radial_normal",
+      "draws": 10000,
+      "n_clusters": 128,
+      "numerator": "radial_spline",
+      "ratio": 0.58608356904357
+    }
+  },
+  "primary_n_boundary_128": {
+    "exact_screened_bie": {
+      "max": 0.010860802605748177,
+      "mean": 9.969682583391704e-05,
+      "median": 7.1787703745940235e-06,
+      "method": "exact_screened_bie",
+      "n_boundary": 128,
+      "n_rows": 1280,
+      "p90": 0.0001230795547598974,
+      "seed0_mean": "",
+      "seed1_mean": "",
+      "seed2_mean": "",
+      "std": 0.0006311878622020704
+    },
+    "generic_matched": {
+      "max": 0.25354501605033875,
+      "mean": 0.00990399452011843,
+      "median": 0.00474421470426023,
+      "method": "generic_matched",
+      "n_boundary": 128,
+      "n_rows": 3840,
+      "p90": 0.020632482692599288,
+      "seed0_mean": 0.009357463915830522,
+      "seed1_mean": 0.009570845555981578,
+      "seed2_mean": 0.010783674088543194,
+      "std": 0.01698482736873153
+    },
+    "radial_normal": {
+      "max": 0.010887503623962402,
+      "mean": 0.00017932374861970857,
+      "median": 9.31476206460502e-05,
+      "method": "radial_normal",
+      "n_boundary": 128,
+      "n_rows": 3840,
+      "p90": 0.0002068413436063565,
+      "seed0_mean": 0.0001373157979401185,
+      "seed1_mean": 0.00023340885412608258,
+      "seed2_mean": 0.00016724659379292462,
+      "std": 0.0006212265339230336
+    },
+    "radial_spline": {
+      "max": 0.011472840793430805,
+      "mean": 0.00010509870260531074,
+      "median": 5.180970447327127e-06,
+      "method": "radial_spline",
+      "n_boundary": 128,
+      "n_rows": 3840,
+      "p90": 0.00013213293277658522,
+      "seed0_mean": 0.00010556793714862067,
+      "seed1_mean": 0.00010355352464430645,
+      "seed2_mean": 0.00010617464602300509,
+      "std": 0.000645550391037057
+    }
+  },
+  "spline_interpretation": "spline_materially_better",
+  "stability_overall": {
+    "condition_ratio_max": 1.002780556678772,
+    "condition_ratio_mean": 1.0000640070065856,
+    "fraction_margin_below_one": 1.0,
+    "margin_max": 0.7577232122421265,
+    "margin_mean": 0.43681716800460385,
+    "margin_median": 0.4437912553548813,
+    "margin_p90": 0.5340729057788851,
+    "n_matrices": 5760,
+    "solve_residual_max": 2.9152758429518144e-07,
+    "stratum": "overall",
+    "value": "all"
+  },
+  "verdict": "PAPERIZE"
+}

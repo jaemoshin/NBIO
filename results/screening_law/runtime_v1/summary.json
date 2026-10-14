@@ -1,0 +1,30 @@
+{
+  "exact_yukawa_structure": {
+    "assembly_ms": 1.5277955099008977,
+    "new_geometry_total_ms": 3.8836966268718243,
+    "parameters": 0,
+    "potential_ms": 1.3515304890461266,
+    "solve_ms": 0.23293402045965195
+  },
+  "generic_full_prior": {
+    "assembly_ms": 3.4437365247868,
+    "new_geometry_total_ms": 10.80238213762641,
+    "parameters": 9089,
+    "potential_ms": 6.380988517776132,
+    "solve_ms": 0.223974057007581
+  },
+  "generic_no_prior": {
+    "assembly_ms": 3.3281120122410357,
+    "new_geometry_total_ms": 10.553927451837808,
+    "parameters": 9089,
+    "potential_ms": 6.252002960536629,
+    "solve_ms": 0.2227085060440004
+  },
+  "radial_normal_form": {
+    "assembly_ms": 2.2702665301039815,
+    "new_geometry_total_ms": 6.536058033816516,
+    "parameters": 2241,
+    "potential_ms": 3.28169297426939,
+    "solve_ms": 0.22523500956594944
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "source_files": [
+    "results/radial_surface_law/fixed_seed701.csv",
+    "results/radial_surface_law/fixed_seed702.csv",
+    "results/radial_surface_law/fixed_seed703.csv",
+    "results/radial_surface_law/fixed_seed704.csv"
+  ],
+  "n_rows": 160,
+  "model_seeds": [
+    701,
+    702,
+    703,
+    704
+  ],
+  "methods": [
+    "exact_yukawa_split",
+    "generic_pairwise",
+    "laplace_floor",
+    "radial_product",
+    "radial_separate"
+  ],
+  "splits": [
+    "fixed"
+  ],
+  "max_solve_residual": 5.009261027221316e-16,
+  "summary": [
+    {
+      "method": "exact_yukawa_split",
+      "split": "fixed",
+      "geometry": "sphere",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.004186772414786223,
+      "median_rel_l2": 0.004142750800934612,
+      "std_rel_l2": 0.0004384017002312382,
+      "p90_rel_l2": 0.004827818340353669,
+      "max_rel_l2": 0.004827818340353669
+    },
+    {
+      "method": "exact_yukawa_split",
+      "split": "fixed",
+      "geometry": "torus",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.004841310198501302,
+      "median_rel_l2": 0.004800669660493556,
+      "std_rel_l2": 0.00026302251344065584,
+      "p90_rel_l2": 0.0052184941412254824,
+      "max_rel_l2": 0.0052184941412254824
+    },
+    {
+      "method": "generic_pairwise",
+      "split": "fixed",
+      "geometry": "sphere",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.06324642298426558,
+      "median_rel_l2": 0.05493280890772151,
+      "std_rel_l2": 0.036008671423316735,
+      "p90_rel_l2": 0.12589279935739633,
+      "max_rel_l2": 0.1291515330914992
+    },
+    {
+      "method": "generic_pairwise",
+      "split": "fixed",
+      "geometry": "torus",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.004370706564713523,
+      "median_rel_l2": 0.003551975880044876,
+      "std_rel_l2": 0.00227325720391194,
+      "p90_rel_l2": 0.008110594244983463,
+      "max_rel_l2": 0.009245245691904876
+    },
+    {
+      "method": "laplace_floor",
+      "split": "fixed",
+      "geometry": "sphere",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 1.6732429488024465,
+      "median_rel_l2": 1.6468263769224185,
+      "std_rel_l2": 0.12147929992248156,
+      "p90_rel_l2": 1.8608864466855646,
+      "max_rel_l2": 1.8608864466855646
+    },
+    {
+      "method": "laplace_floor",
+      "split": "fixed",
+      "geometry": "torus",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.22977367422892708,
+      "median_rel_l2": 0.218977282605615,
+      "std_rel_l2": 0.051217206583459254,
+      "p90_rel_l2": 0.30765609281199086,
+      "max_rel_l2": 0.30765609281199086
+    },
+    {
+      "method": "radial_product",
+      "split": "fixed",
+      "geometry": "sphere",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.00574165071098041,
+      "median_rel_l2": 0.004231677201792606,
+      "std_rel_l2": 0.0033993738964118083,
+      "p90_rel_l2": 0.011180038729502868,
+      "max_rel_l2": 0.012592999689414262
+    },
+    {
+      "method": "radial_product",
+      "split": "fixed",
+      "geometry": "torus",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.0011495186817147304,
+      "median_rel_l2": 0.0010277331615274788,
+      "std_rel_l2": 0.00034673289696471207,
+      "p90_rel_l2": 0.001502866997562816,
+      "max_rel_l2": 0.0021093170773730276
+    },
+    {
+      "method": "radial_separate",
+      "split": "fixed",
+      "geometry": "sphere",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.0074556248022055495,
+      "median_rel_l2": 0.007492350286971528,
+      "std_rel_l2": 0.0014076142924009326,
+      "p90_rel_l2": 0.009121479131152466,
+      "max_rel_l2": 0.00982946944423426
+    },
+    {
+      "method": "radial_separate",
+      "split": "fixed",
+      "geometry": "torus",
+      "kappa": 3.0,
+      "n": 16,
+      "mean_rel_l2": 0.0012038886739499815,
+      "median_rel_l2": 0.001156263250818658,
+      "std_rel_l2": 0.0002551728267590915,
+      "p90_rel_l2": 0.0015808753554516198,
+      "max_rel_l2": 0.0017031588211447494
+    }
+  ],
+  "gate_a": {
+    "n_seeds": 4,
+    "generic_torus_mean": 0.004370706564713522,
+    "generic_sphere_mean": 0.0632464229842656,
+    "radial_sphere_mean": 0.005741650710980411,
+    "radial_to_generic_seed_ratios": [
+      0.03675825154351613,
+      0.17239048707586888,
+      0.06837682639652885,
+      0.12420678931008722
+    ],
+    "reproduction_below_1e-2": true,
+    "radial_all_seed_wins": true,
+    "radial_at_least_3x": true
+  }
+}

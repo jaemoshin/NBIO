@@ -1,0 +1,17 @@
+seed: 0
+device: cuda
+train:
+  batch_size: 32
+  epochs: 80
+  lr: 0.001
+  weight_decay: 0.0
+  grad_clip: 1.0
+model:
+  name: nbio
+  kwargs:
+    hidden: 64
+    n_layers: 3
+    feat_scale: 1.0
+    region: interior
+    split: false
+    solve: direct

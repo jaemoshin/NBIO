@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "C1_exact_split_below_1e-3": true,
+    "C2_pass": true,
+    "C2_radial_close_split_to_direct_ratio": 1.6420035322749946e-05,
+    "C3_pass": false,
+    "C3_radial_to_exact_split_ratio": 3.3729962565079985,
+    "C4_distance_1e-2_split_to_direct_ratio": 0.0012780241170982642,
+    "C4_pass": true,
+    "C5_differentiable": true
+  },
+  "gradient_checks": [
+    {
+      "finite": true,
+      "output": -0.004873982221980622,
+      "parameter_gradient_norm": 0.000450642058327097,
+      "query_gradient_norm": 0.027592974663443286
+    }
+  ],
+  "n_raw_rows": 18432,
+  "pooled_mean_rel_l2": {
+    "exact_yukawa_direct": 7.136582297928856,
+    "exact_yukawa_split_qbx": 7.239622010626906e-05,
+    "radial_direct": 7.137405768948091,
+    "radial_split_qbx": 0.0002441921794037746
+  },
+  "protocol": "screening_law_split_qbx_endpoint_v1",
+  "qbx": {
+    "near_fac": 2.0,
+    "order": 24,
+    "oversample": 4,
+    "r_fac": 2.0
+  },
+  "verdict": "NARROW"
+}

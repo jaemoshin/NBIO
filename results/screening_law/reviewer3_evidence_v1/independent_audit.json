@@ -1,0 +1,155 @@
+{
+  "all_finite": true,
+  "checkpoint_hashes_pass": true,
+  "claim_boundary": "The untouched result supports the kappa*r normal form and fresh data-efficiency transfer. Because the unconstrained B-spline outperforms the radial MLP, it does not support a neural-expressivity claim for screened-law identification.",
+  "coverage": {
+    "efficiency": 53760,
+    "efficiency_unique": 53760,
+    "main": 38400,
+    "main_unique": 38400,
+    "stability": 5760,
+    "stability_unique": 5760
+  },
+  "coverage_pass": true,
+  "data_quality_issues": [],
+  "paired_confidence": {
+    "noise5_radial_over_generic": {
+      "ci95": [
+        0.07415083526548163,
+        0.09326100002119639
+      ],
+      "clusters": 128,
+      "ratio": 0.08312822472850212
+    },
+    "radial_over_generic": {
+      "ci95": [
+        0.01279315136919005,
+        0.02592302966645089
+      ],
+      "clusters": 128,
+      "ratio": 0.01810620434567488
+    },
+    "sample_n100_radial_over_generic": {
+      "ci95": [
+        0.011172087605362886,
+        0.026280184392096267
+      ],
+      "clusters": 128,
+      "ratio": 0.01723648797672293
+    },
+    "spline_over_radial": {
+      "ci95": [
+        0.34426429739681935,
+        0.7486386098756299
+      ],
+      "clusters": 128,
+      "ratio": 0.58608356904357
+    }
+  },
+  "primary_failure_tails": {
+    "exact_screened_bie": {
+      "family": "rough",
+      "kappa": "3.55",
+      "load_family": "fourier",
+      "rel_l2": "0.010860802605748177",
+      "sample_id": "1",
+      "seed_index": "-1"
+    },
+    "generic_matched": {
+      "family": "rough",
+      "kappa": "3.55",
+      "load_family": "fourier",
+      "rel_l2": "0.25354501605033875",
+      "sample_id": "1",
+      "seed_index": "2"
+    },
+    "radial_normal": {
+      "family": "rough",
+      "kappa": "3.55",
+      "load_family": "fourier",
+      "rel_l2": "0.010887503623962402",
+      "sample_id": "1",
+      "seed_index": "1"
+    },
+    "radial_spline": {
+      "family": "rough",
+      "kappa": "3.55",
+      "load_family": "fourier",
+      "rel_l2": "0.011472840793430805",
+      "sample_id": "1",
+      "seed_index": "1"
+    }
+  },
+  "primary_slice_summary": {
+    "cells": 40,
+    "spline_beats_radial_cells": 40,
+    "spline_over_radial_ratio_max": 0.9844594684150921,
+    "spline_over_radial_ratio_median": 0.32837370771159025,
+    "spline_over_radial_ratio_min": 0.01144204314136926,
+    "worst_spline_over_radial_cell": {
+      "exact_screened_bie": 4.009023611217799e-05,
+      "family": "deform",
+      "generic_matched": 0.012065067945513874,
+      "kappa": 3.55,
+      "load": "point_source",
+      "radial_normal": 0.0001708776025376816,
+      "radial_spline": 0.00016822207375829143,
+      "spline_over_exact": 4.196085882048261,
+      "spline_over_radial": 0.9844594684150921
+    }
+  },
+  "runtime_coverage": {
+    "batch_sizes": [
+      1,
+      8,
+      32
+    ],
+    "contracts": [
+      "amortized_full_forward",
+      "cached_geometry_repeated_rhs_solve+potential",
+      "new_geometry_assembly+solve+potential"
+    ],
+    "methods": [
+      "exact_screened_bie",
+      "kappa_boundary_transformer_v2",
+      "radial_normal"
+    ],
+    "rows": 15
+  },
+  "seed_means": {
+    "generic_matched": [
+      0.009357463915830522,
+      0.009570845555981578,
+      0.010783674088543194
+    ],
+    "radial_normal": [
+      0.0001373157979401185,
+      0.00023340885412608258,
+      0.00016724659379292462
+    ],
+    "radial_spline": [
+      0.00010556793714862067,
+      0.00010355352464430645,
+      0.00010617464602300509
+    ]
+  },
+  "seed_ratios": {
+    "radial_over_generic": [
+      0.01467446726754821,
+      0.024387485176814595,
+      0.015509240396147634
+    ],
+    "spline_over_radial": [
+      0.7687967352063699,
+      0.44365722556681164,
+      0.6348389142948082
+    ]
+  },
+  "stability": {
+    "all_below_sufficient_bound": true,
+    "maximum_condition_ratio": 1.002780556678772,
+    "maximum_margin": 0.7577232122421265,
+    "maximum_solve_residual": 2.9152758429518144e-07
+  },
+  "verdict": "PAPERIZE"
+}

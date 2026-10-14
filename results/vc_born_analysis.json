@@ -1,0 +1,78 @@
+{
+  "n": 96,
+  "n_fields": 3,
+  "K": 5,
+  "rows": [
+    {
+      "contrast": 1.0,
+      "rho_mean": 7.993605777301127e-15,
+      "rho_max": 7.993605777301127e-15,
+      "prior_rel_l2": 8.851053759447368e-09,
+      "born5_rel_l2": 8.851066594215805e-09,
+      "born_converges": true
+    },
+    {
+      "contrast": 1.5,
+      "rho_mean": 0.2180782347690179,
+      "rho_max": 0.21859926956560738,
+      "prior_rel_l2": 0.033756934868320564,
+      "born5_rel_l2": 6.800451815878367e-07,
+      "born_converges": true
+    },
+    {
+      "contrast": 2.0,
+      "rho_mean": 0.40031770391983423,
+      "rho_max": 0.4007441828373661,
+      "prior_rel_l2": 0.05248012957760711,
+      "born5_rel_l2": 1.7310166027318296e-05,
+      "born_converges": true
+    },
+    {
+      "contrast": 3.0,
+      "rho_mean": 0.583629594460787,
+      "rho_max": 0.6808699593289189,
+      "prior_rel_l2": 0.10265558099157551,
+      "born5_rel_l2": 0.00030532451358180577,
+      "born_converges": true
+    },
+    {
+      "contrast": 4.0,
+      "rho_mean": 0.8216299898354238,
+      "rho_max": 0.9156720435411063,
+      "prior_rel_l2": 0.10375136026075776,
+      "born5_rel_l2": 0.0007990913381477537,
+      "born_converges": true
+    },
+    {
+      "contrast": 6.0,
+      "rho_mean": 0.9438676101870714,
+      "rho_max": 1.2858701899032603,
+      "prior_rel_l2": 0.1720931488634938,
+      "born5_rel_l2": 0.008732378857748678,
+      "born_converges": true
+    },
+    {
+      "contrast": 8.0,
+      "rho_mean": 1.4134654680534209,
+      "rho_max": 1.631817611142711,
+      "prior_rel_l2": 0.15915119809029996,
+      "born5_rel_l2": 0.025481947487885737,
+      "born_converges": false
+    },
+    {
+      "contrast": 12.0,
+      "rho_mean": 1.7207266701653021,
+      "rho_max": 2.082952289795089,
+      "prior_rel_l2": 0.23730399427946777,
+      "born5_rel_l2": 0.05080433122278927,
+      "born_converges": false
+    }
+  ],
+  "rho1_contrast_threshold": 6.239065783085,
+  "dataset_contrast_train": 3.0,
+  "dataset_contrast_zeroshot": 6.0,
+  "green_fno_rel_l2": 0.00337,
+  "fno_rel_l2": 0.00433,
+  "const_prior_rel_l2": 0.0899,
+  "note": "The dataset uses contrast 3 (train) and 6 (zero-shot). Compare to the Born threshold: if rho>1 there, the constant-coeff structure cannot be iterated to the solution and a LEARNED correction is required; the structural prior then beats a black-box FNO by only ~1.3x (green_fno 3.37e-3 vs fno 4.33e-3), the honest edge."
+}

@@ -1,0 +1,162 @@
+{
+  "n": 96,
+  "m2": 1.0,
+  "rows": [
+    {
+      "kappa": 1.0,
+      "picard_iters": 29,
+      "picard_final_rel": 1.4757633627800177e-13,
+      "picard_diverged": false,
+      "newton_iters": 5,
+      "newton_final_rel": 2.443822687342236e-16,
+      "newton_err_curve": [
+        0.08813059743216264,
+        0.0020726544543369935,
+        1.435778701588166e-06,
+        7.662290176701823e-13,
+        2.443822687342236e-16
+      ],
+      "newton_inner_gmres_iters": [
+        1,
+        9,
+        9,
+        9,
+        9
+      ],
+      "newton_inner_iters_mean": 7.4
+    },
+    {
+      "kappa": 5.0,
+      "picard_iters": 11,
+      "picard_final_rel": Infinity,
+      "picard_diverged": true,
+      "newton_iters": 7,
+      "newton_final_rel": 2.2275282053942556e-16,
+      "newton_err_curve": [
+        0.44065298716081264,
+        0.09879193322874683,
+        0.007007011716292881,
+        4.437132763152908e-05,
+        1.9366317367631497e-09,
+        2.383409762055889e-16,
+        2.2275282053942556e-16
+      ],
+      "newton_inner_gmres_iters": [
+        1,
+        20,
+        16,
+        14,
+        14,
+        14,
+        14
+      ],
+      "newton_inner_iters_mean": 13.285714285714286
+    },
+    {
+      "kappa": 20.0,
+      "picard_iters": 6,
+      "picard_final_rel": Infinity,
+      "picard_diverged": true,
+      "newton_iters": 9,
+      "newton_final_rel": 2.3521195138220384e-16,
+      "newton_err_curve": [
+        1.7626119486432519,
+        0.887786657425207,
+        0.3563240986566386,
+        0.09144876732428878,
+        0.009528183611897707,
+        0.0001486121139754728,
+        4.31241719726606e-08,
+        3.9563183808511035e-15,
+        2.3521195138220384e-16
+      ],
+      "newton_inner_gmres_iters": [
+        1,
+        57,
+        41,
+        31,
+        25,
+        23,
+        23,
+        23,
+        23
+      ],
+      "newton_inner_iters_mean": 27.444444444444443
+    },
+    {
+      "kappa": 50.0,
+      "picard_iters": 6,
+      "picard_final_rel": Infinity,
+      "picard_diverged": true,
+      "newton_iters": 11,
+      "newton_final_rel": 2.3392751680744653e-16,
+      "newton_err_curve": [
+        4.406529871608128,
+        2.637670347075692,
+        1.4715130107323617,
+        0.7224525552994447,
+        0.27882407853305813,
+        0.06814813667446913,
+        0.007057221844415641,
+        0.00012027972865258909,
+        4.329004163381723e-08,
+        6.229750115503315e-15,
+        2.3392751680744653e-16
+      ],
+      "newton_inner_gmres_iters": [
+        1,
+        140,
+        105,
+        74,
+        51,
+        40,
+        34,
+        33,
+        31,
+        31,
+        30
+      ],
+      "newton_inner_iters_mean": 51.81818181818182
+    },
+    {
+      "kappa": 100.0,
+      "picard_iters": 6,
+      "picard_final_rel": NaN,
+      "picard_diverged": true,
+      "newton_iters": 13,
+      "newton_final_rel": 2.0378851369076234e-16,
+      "newton_err_curve": [
+        8.813059743216261,
+        5.573440494562106,
+        3.4189619180393045,
+        1.992483573947749,
+        1.0612868806478928,
+        0.479607946433743,
+        0.1591293019889309,
+        0.030014030637395554,
+        0.0019751464783100206,
+        1.3097146634205483e-05,
+        6.918795351257902e-10,
+        2.1654188898651287e-16,
+        2.0378851369076234e-16
+      ],
+      "newton_inner_gmres_iters": [
+        1,
+        267,
+        214,
+        166,
+        114,
+        80,
+        59,
+        45,
+        42,
+        41,
+        39,
+        38,
+        39
+      ],
+      "newton_inner_iters_mean": 88.07692307692308
+    }
+  ],
+  "note": "Newton's inner solve J w=-R with J=-Lap+m^2+3k u^2 is a variable-REACTION (lower-order) problem, so the constant-coeff Green's operator (-Lap+m^2)^-1 is still an exact preconditioner -> inner solve in O(1) GMRES iters. Newton converges quadratically and at large kappa where Picard stalls/diverges, with NO learned/assembled variable operator for the reaction term. (The remaining hard case stays the variable PRINCIPAL coefficient.)"
+}

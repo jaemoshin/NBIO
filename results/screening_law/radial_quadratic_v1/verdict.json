@@ -1,0 +1,105 @@
+{
+  "all_finite": true,
+  "coverage": {
+    "deform": 18240,
+    "highmode": 18240,
+    "in_dist": 18240,
+    "rough": 18240
+  },
+  "endpoint_derivatives": {
+    "radial_endpoint": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "radial_normal": [
+      -0.039999668641740774,
+      -0.04139985948754709,
+      -0.05149433045423368
+    ],
+    "radial_quadratic": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "gates": {
+    "Q1_endpoint_derivative": true,
+    "Q2_both_generic_ratios_below_0p8": true,
+    "Q3_accuracy_preserved_and_near_exact": false,
+    "Q4_no_hidden_or_nonfinite_failure": true,
+    "Q5_stability": true
+  },
+  "hidden_failures": [],
+  "hierarchical_bootstrap_ci95": {
+    "quadratic_over_generic_full": [
+      0.05857100585047366,
+      0.07466943025199789
+    ],
+    "quadratic_over_generic_no_prior": [
+      0.028288114260573514,
+      0.06277104959095434
+    ]
+  },
+  "n_geometry_load_kappa_instances_per_seed": 1280,
+  "n_test_geometries": 128,
+  "primary_mean_rel_l2": {
+    "exact_yukawa_bie": 4.296694667311751e-05,
+    "generic_matched": 0.010794592542940034,
+    "generic_no_prior_matched": 0.016207248093754362,
+    "radial_endpoint": 0.0003598587190613974,
+    "radial_normal": 0.00013283080347955927,
+    "radial_quadratic": 0.0007127628627434508,
+    "radial_separate": 0.00449705420457273
+  },
+  "primary_resolution": 128,
+  "protocol": "radial_quadratic_v1",
+  "ratios": {
+    "exact_yukawa_bie": 16.5886319120133,
+    "generic_matched": 0.06602962176739295,
+    "generic_no_prior_matched": 0.04397803122530849,
+    "radial_endpoint": 1.980674150684793,
+    "radial_normal": 5.365945579431315
+  },
+  "seed_mean_rel_l2": {
+    "generic_matched": [
+      0.00985561307752505,
+      0.01049332394159137,
+      0.012034840609703678
+    ],
+    "generic_no_prior_matched": [
+      0.01940596641961747,
+      0.015647017174524082,
+      0.01356876068712154
+    ],
+    "radial_endpoint": [
+      0.0002462788340039879,
+      0.0006234013289713403,
+      0.00020989599420886406
+    ],
+    "radial_normal": [
+      9.300005125538746e-05,
+      0.00019057481111985907,
+      0.00011491754806343124
+    ],
+    "radial_quadratic": [
+      0.0006443873175157932,
+      0.0007119242036196738,
+      0.0007819770670948855
+    ],
+    "radial_separate": [
+      0.0029752267238109197,
+      0.008977554910779872,
+      0.0015383809791273961
+    ]
+  },
+  "stability": {
+    "fraction_margin_below_one": 1.0,
+    "laplace_perturbation_margin_max": 0.4997531771659851,
+    "laplace_perturbation_margin_mean": 0.40602171743909515,
+    "laplace_perturbation_margin_p90": 0.46289088428020475,
+    "max_condition_ratio": 1.0060886379431924,
+    "max_relative_residual": 2.3929294457047945e-07
+  },
+  "verdict": "NARROW"
+}

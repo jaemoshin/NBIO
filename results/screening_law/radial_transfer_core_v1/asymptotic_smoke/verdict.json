@@ -1,0 +1,41 @@
+{
+  "bulk_n_boundary_128": {
+    "radial_asymptotic": 0.0002923209766453581,
+    "radial_normal": 0.00014872993881233436,
+    "ratio": 1.9654481066801568
+  },
+  "bulk_refinement": {
+    "128": 0.0002923209766453581,
+    "256": 0.00026614886089549445,
+    "512": 0.00026616686134210666
+  },
+  "component": "asymptotic_smoke",
+  "coverage": {
+    "bulk_rows": 14400,
+    "qbx_rows": 8640,
+    "stability_rows": 11520
+  },
+  "endpoint": {
+    "derivative": 0.0,
+    "max_error": 0.0,
+    "value": 1.0
+  },
+  "gates": {
+    "A1_bulk_within_1p25x_original": false,
+    "A2_split_qbx_at_least_2x_better": true,
+    "A3_strict_refinement": false,
+    "A4_condition_ratio_below_1p1": true,
+    "A5_no_failed_or_nonfinite_solves": true,
+    "A6_endpoint_constraints": true
+  },
+  "split_qbx": {
+    "radial_asymptotic": 8.713834483287817e-05,
+    "radial_normal": 0.0008744567235091293,
+    "ratio": 0.09964855034014551
+  },
+  "stability": {
+    "max_condition_ratio_at_128": 1.01340468159552,
+    "max_relative_residual": 5.438288010183103e-16
+  },
+  "verdict": "KILL"
+}

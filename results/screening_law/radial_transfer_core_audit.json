@@ -1,0 +1,163 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "efficiency_checkpoints": true,
+    "efficiency_coverage": true,
+    "efficiency_finite": true,
+    "efficiency_training_contract": true,
+    "interval_checkpoints": true,
+    "interval_coverage": true,
+    "interval_finite": true,
+    "interval_split_clean": true
+  },
+  "claim_boundary": {
+    "not_supported": [
+      "interior-to-exterior or topology transfer without retraining",
+      "asymptotic parameterization replacing the selected radial law",
+      "parameter extrapolation outside the trained kappa range",
+      "universal neural-operator SOTA"
+    ],
+    "supported": [
+      "contiguous in-range kappa-interval interpolation",
+      "same-protocol advantage over a normalized Boundary Transformer",
+      "unique-observation and synthetic-label-noise efficiency"
+    ]
+  },
+  "core_local_verdicts": {
+    "asymptotic": "KILL",
+    "topology": "KILL",
+    "transformer_v1": "KILL",
+    "transformer_v2": "PAPERIZE"
+  },
+  "efficiency": {
+    "all_finite": true,
+    "all_runs_fixed_7500_updates": true,
+    "checkpoint_audit": {
+      "count": 42,
+      "expected": 42,
+      "hashes_valid": true
+    },
+    "condition_uncertainty": {
+      "sample_n100": {
+        "cluster_bootstrap_ci95": [
+          0.010913056839656253,
+          0.013354602754500759
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.011092187779377344,
+          0.012804096674861072,
+          0.012234672118080572
+        ],
+        "ratio": 0.012083318914532168
+      },
+      "sample_n2400": {
+        "cluster_bootstrap_ci95": [
+          0.012228438883999873,
+          0.01526766206932315
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.012843045595200182,
+          0.013745072082022625,
+          0.014527097118228116
+        ],
+        "ratio": 0.01367347960764675
+      },
+      "sample_n300": {
+        "cluster_bootstrap_ci95": [
+          0.012845062390628327,
+          0.015679421301842793
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.015680997327457962,
+          0.013506897306851083,
+          0.013849990061593244
+        ],
+        "ratio": 0.014244157052403453
+      },
+      "sample_n800": {
+        "cluster_bootstrap_ci95": [
+          0.012507938570602164,
+          0.01556047057986735
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.01386867247318355,
+          0.013984094712822843,
+          0.014054129096287147
+        ],
+        "ratio": 0.013968655400396874
+      },
+      "sensor_q32_noise0p0": {
+        "cluster_bootstrap_ci95": [
+          0.011951094884867447,
+          0.01446394763497864
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.012871949833019581,
+          0.012406868295249243,
+          0.014626924032059976
+        ],
+        "ratio": 0.013179001663602093
+      },
+      "sensor_q32_noise0p01": {
+        "cluster_bootstrap_ci95": [
+          0.021402293394555707,
+          0.025282756637800313
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.029548882565724927,
+          0.0201353066872616,
+          0.02147996608619703
+        ],
+        "ratio": 0.02335226639356849
+      },
+      "sensor_q32_noise0p05": {
+        "cluster_bootstrap_ci95": [
+          0.06668435058320624,
+          0.07820089052536786
+        ],
+        "clusters": 1280,
+        "paired_seed_ratios": [
+          0.07636408689759704,
+          0.05788583491936387,
+          0.08817823069307631
+        ],
+        "ratio": 0.07251091412106478
+      }
+    },
+    "coverage_expected": 55040,
+    "coverage_rows": 55040,
+    "holdout_reuse_note": "This prospective training grid reused the already examined radial-factorization holdout; checkpoints were validation-selected and every prespecified condition is reported.",
+    "reported_verdict": "PAPERIZE",
+    "training_runs": 42
+  },
+  "interval": {
+    "all_finite": true,
+    "checkpoint_audit": {
+      "count": 9,
+      "expected": 9,
+      "hashes_valid": true
+    },
+    "coverage_expected": 28800,
+    "coverage_rows": 28800,
+    "reported_verdict": "PAPERIZE",
+    "test_kappas": [
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4
+    ],
+    "test_kappas_inside_withheld_interval": true,
+    "train_kappa_counts": {
+      "lower_interval": 3600,
+      "upper_interval": 3600,
+      "withheld_interval": 0
+    }
+  }
+}

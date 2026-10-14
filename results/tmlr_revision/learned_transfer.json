@@ -1,0 +1,146 @@
+{
+  "claim_boundary": "fixed-kappa transfer only; no kappa-family transfer is claimed",
+  "paired_split_minus_nosplit": {
+    "mean": 0.020185937483145407,
+    "median": 0.0054723466746509075,
+    "n": 4608,
+    "split_win_fraction": 0.2936197916666667
+  },
+  "protocol": {
+    "epsilon": "not applicable",
+    "families": {
+      "deform": {
+        "amp": 0.6,
+        "decay": 1.6,
+        "dev_cap": 0.85,
+        "n_modes": 5
+      },
+      "highmode": {
+        "amp": 0.45,
+        "decay": 1.2,
+        "dev_cap": 0.55,
+        "n_modes": 9
+      },
+      "in_dist": {
+        "amp": 0.32,
+        "decay": 1.6,
+        "dev_cap": 0.55,
+        "n_modes": 5
+      },
+      "rough": {
+        "amp": 0.6,
+        "decay": 1.0,
+        "dev_cap": 0.75,
+        "n_modes": 8
+      }
+    },
+    "kappa": 4.0,
+    "margins": [
+      0.12,
+      0.02
+    ],
+    "n_b": [
+      64,
+      128,
+      256
+    ]
+  },
+  "resolution_ratios": [
+    {
+      "family": "in_dist",
+      "method": "learned_split",
+      "nb256_over_nb128": 1.000447066241031,
+      "query_margin": 0.12
+    },
+    {
+      "family": "in_dist",
+      "method": "learned_split",
+      "nb256_over_nb128": 0.5803635863545661,
+      "query_margin": 0.02
+    },
+    {
+      "family": "highmode",
+      "method": "learned_split",
+      "nb256_over_nb128": 1.0028003960170628,
+      "query_margin": 0.12
+    },
+    {
+      "family": "highmode",
+      "method": "learned_split",
+      "nb256_over_nb128": 0.5456314079816975,
+      "query_margin": 0.02
+    },
+    {
+      "family": "rough",
+      "method": "learned_split",
+      "nb256_over_nb128": 1.002678909437788,
+      "query_margin": 0.12
+    },
+    {
+      "family": "rough",
+      "method": "learned_split",
+      "nb256_over_nb128": 0.5171020345031796,
+      "query_margin": 0.02
+    },
+    {
+      "family": "deform",
+      "method": "learned_split",
+      "nb256_over_nb128": 0.9993360926297157,
+      "query_margin": 0.12
+    },
+    {
+      "family": "deform",
+      "method": "learned_split",
+      "nb256_over_nb128": 0.4905247101012823,
+      "query_margin": 0.02
+    },
+    {
+      "family": "in_dist",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 1.1454808599142339,
+      "query_margin": 0.12
+    },
+    {
+      "family": "in_dist",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 0.9720534821573971,
+      "query_margin": 0.02
+    },
+    {
+      "family": "highmode",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 1.02856814754756,
+      "query_margin": 0.12
+    },
+    {
+      "family": "highmode",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 0.9727667258306126,
+      "query_margin": 0.02
+    },
+    {
+      "family": "rough",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 0.9765358951959996,
+      "query_margin": 0.12
+    },
+    {
+      "family": "rough",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 0.9708968343299303,
+      "query_margin": 0.02
+    },
+    {
+      "family": "deform",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 1.019416567343151,
+      "query_margin": 0.12
+    },
+    {
+      "family": "deform",
+      "method": "learned_nosplit",
+      "nb256_over_nb128": 0.9537166113324373,
+      "query_margin": 0.02
+    }
+  ]
+}
